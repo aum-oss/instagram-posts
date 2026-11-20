@@ -104,32 +104,41 @@ def dur(sc):
     return 3.0
 
 def music(seconds, path, seed=0):
+    # trilha calma estilo lo-fi/ambient: pads suaves, baixo senoidal, batida leve
+    import wave
     sr = 44100; n = int(seconds * sr); t = np.arange(n) / sr
-    bpm = 116; beat = 60 / bpm; out = np.zeros(n)
+    bpm = 84; beat = 60 / bpm; out = np.zeros(n)
     rng = np.random.default_rng(seed)
-    roots = [55.0, 55.0 * 2 ** (8 / 12), 55.0 * 2 ** (3 / 12), 55.0 * 2 ** (10 / 12)]  # A, F, C, G
+    A = 220.0
+    chords = [[0, 3, 7, 10], [-4, 0, 3, 7], [-9, -5, -2, 3], [-2, 2, 5, 9]]  # Am7, Fmaj7, C/E-ish, G6
+    bar = 4 * beat; nbar = int(seconds / bar) + 1
+    for b in range(nbar):
+        s = int(b * bar * sr)
+        if s >= n: break
+        L = min(int(bar * sr * 1.05), n - s); tt = np.arange(L) / sr
+        env = np.minimum(1, tt / 0.6) * np.minimum(1, (L / sr - tt) / 0.6)
+        ch = chords[b % 4]
+        pad = sum(np.sin(2 * np.pi * A * 2 ** (k / 12) * tt + rng.uniform(0, 6)) * (0.6 + 0.4 * np.sin(2 * np.pi * 0.25 * tt))
+                  for k in ch)
+        out[s:s + L] += 0.10 * pad * env
+        root = A / 2 * 2 ** (ch[0] / 12)
+        out[s:s + L] += 0.22 * np.sin(2 * np.pi * root * tt) * env
     nb = int(seconds / beat) + 1
     for i in range(nb):
         s = int(i * beat * sr)
         if s >= n: break
-        L = min(int(0.35 * sr), n - s); tt = np.arange(L) / sr
-        kick = np.sin(2 * np.pi * (50 + 90 * np.exp(-tt * 30)) * tt) * np.exp(-tt * 9)
-        out[s:s + L] += 0.9 * kick
+        if i % 2 == 0:
+            Lk = min(int(0.25 * sr), n - s); tk = np.arange(Lk) / sr
+            out[s:s + Lk] += 0.35 * np.sin(2 * np.pi * (45 + 40 * np.exp(-tk * 25)) * tk) * np.exp(-tk * 12)
         hs = int((i + 0.5) * beat * sr)
         if hs < n:
-            HL = min(int(0.05 * sr), n - hs)
-            out[hs:hs + HL] += 0.12 * rng.standard_normal(HL) * np.exp(-np.arange(HL) / sr * 80)
-        root = roots[(i // 4) % 4]
-        BL = min(int(beat * sr), n - s); bt = np.arange(BL) / sr
-        out[s:s + BL] += 0.28 * np.sign(np.sin(2 * np.pi * root * bt)) * np.exp(-bt * 3) * 0.6
-        if i % 4 == 0:
-            PL = min(int(4 * beat * sr), n - s); pt = np.arange(PL) / sr
-            pad = sum(np.sin(2 * np.pi * root * 4 * m * pt) for m in (1, 1.189, 1.498))
-            out[s:s + PL] += 0.05 * pad * np.minimum(1, pt * 2) * np.minimum(1, (PL / sr - pt) * 2)
-    fade = np.minimum(1, np.minimum(t / 0.5, (seconds - t) / 1.0))
-    out = out * fade; out = out / (np.abs(out).max() + 1e-9) * 0.5
+            HL = min(int(0.04 * sr), n - hs)
+            out[hs:hs + HL] += 0.03 * rng.standard_normal(HL) * np.exp(-np.arange(HL) / sr * 90)
+    # suavização (passa-baixa simples)
+    k = 6; out = np.convolve(out, np.ones(k) / k, mode='same')
+    fade = np.minimum(1, np.minimum(t / 1.0, (seconds - t) / 1.5))
+    out = out * fade; out = out / (np.abs(out).max() + 1e-9) * 0.35
     pcm = (out * 32767).astype(np.int16)
-    import wave
     with wave.open(path, 'wb') as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes(pcm.tobytes())
 
