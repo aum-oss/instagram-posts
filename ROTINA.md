@@ -1,7 +1,7 @@
 # Rotina de publicação — @digitalnomad2050 (21 a 30/11/2026)
 
 Conta Instagram via Windsor.ai: conector `instagram`, conta `17841472160483728`.
-Imagens e vídeos são servidos por `https://raw.githubusercontent.com/aum-oss/instagram-posts/main/<caminho>`.
+Imagens e vídeos são servidos (GitHub Pages; após o push, aguardar ~1–2 min para o arquivo ficar disponível) por `https://aum-oss.github.io/instagram-posts/<caminho>`.
 Horários em Europe/Paris. Brasília = Paris − 4h.
 
 ## 1. Notícia do dia (manhã) — preparar às ~9h, publicar às 10h40 (6h40 Brasília)
