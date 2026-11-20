@@ -1,0 +1,9 @@
+{"id":"2026-11-20-noticia","type":"reel","tag":"ATAQUE DO DIA",
+ "scenes":[
+  ["hook","A Comissão Europeia foi hackeada","COM AJUDA DE IA"],
+  ["item","1","Ataque detectado em outubro","e confirmado só hoje, depois que a imprensa revelou"],
+  ["item","2","Os hackers usaram uma IA pública","uma ferramenta que qualquer pessoa pode baixar"],
+  ["item","3","Sistemas fora do ar","RH, reembolso médico e tradução por mais de 10 dias"],
+  ["tip","O que isso muda:",["Ataques com IA ficam","mais rápidos e baratos.","Atualizações e 2 etapas","nunca foram tão importantes."]],
+  ["cta","Manda pra quem trabalha com TI"]
+ ]}
