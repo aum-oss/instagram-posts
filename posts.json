@@ -1,0 +1,534 @@
+[
+ {
+  "id": "d01-whatsapp-clonado",
+  "slot": "noite",
+  "publish_at": "2026-11-21T23:00+01:00",
+  "type": "reel",
+  "caption": "5 sinais de que seu WhatsApp foi clonado. Se você viu algum deles, ative a confirmação em duas etapas agora.\n\nManda pra quem precisa 📲\n\n#whatsapp #golpe #segurancadigital #ciberseguranca",
+  "status": "aguardando aprovação",
+  "source": {
+   "id": "d01-whatsapp-clonado",
+   "date": "2026-11-21",
+   "type": "reel",
+   "trial": false,
+   "tag": "ALERTA GOLPE",
+   "scenes": [
+    [
+     "hook",
+     "Seu WhatsApp pode ter sido",
+     "CLONADO"
+    ],
+    [
+     "item",
+     "1",
+     "Amigos recebendo pedido de Pix",
+     "que você nunca mandou"
+    ],
+    [
+     "item",
+     "2",
+     "O WhatsApp desconectou sozinho",
+     "e pediu para verificar o número de novo"
+    ],
+    [
+     "item",
+     "3",
+     "Chegou SMS com código",
+     "que você não pediu"
+    ],
+    [
+     "item",
+     "4",
+     "Aparelho desconhecido",
+     "em Dispositivos conectados"
+    ],
+    [
+     "item",
+     "5",
+     "Conversas lidas ou arquivadas",
+     "que você não abriu"
+    ],
+    [
+     "tip",
+     "Proteja agora:",
+     [
+      "Configurações → Conta →",
+      "Confirmação em duas etapas"
+     ]
+    ],
+    [
+     "cta",
+     "Manda pra quem precisa 📲"
+    ]
+   ],
+   "caption": "5 sinais de que seu WhatsApp foi clonado. Se você viu algum deles, ative a confirmação em duas etapas agora.\n\nManda pra quem precisa 📲\n\n#whatsapp #golpe #segurancadigital #ciberseguranca"
+  },
+  "video_url": "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d01-whatsapp-clonado/reel.mp4",
+  "cover_url": "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d01-whatsapp-clonado/cover.jpg",
+  "trial": false
+ },
+ {
+  "id": "d02-link-falso-banco",
+  "slot": "noite",
+  "publish_at": "2026-11-22T23:00+01:00",
+  "type": "reel",
+  "caption": "Banco nenhum manda link pedindo senha ou código. Na dúvida, não clique: abra o app oficial você mesmo.\n\nSalva pra ver depois 🔖\n\n#golpe #phishing #segurancadigital #banco",
+  "status": "aguardando aprovação",
+  "source": {
+   "id": "d02-link-falso-banco",
+   "date": "2026-11-22",
+   "type": "reel",
+   "trial": true,
+   "tag": "ALERTA GOLPE",
+   "scenes": [
+    [
+     "hook",
+     "Esse link parece do seu banco.",
+     "MAS É GOLPE"
+    ],
+    [
+     "sms",
+     "SeuBanco",
+     "SeuBanco: sua conta foi BLOQUEADA. Regularize hoje em: seubanco-seguranca-app.com"
+    ],
+    [
+     "item",
+     "1",
+     "Urgência e medo",
+     "\"bloqueada\", \"hoje\", \"último aviso\""
+    ],
+    [
+     "item",
+     "2",
+     "Endereço estranho",
+     "hífens e palavras a mais no site"
+    ],
+    [
+     "item",
+     "3",
+     "Pede senha ou código",
+     "banco nunca pede isso por link"
+    ],
+    [
+     "tip",
+     "Na dúvida:",
+     [
+      "Não clique.",
+      "Abra o app oficial do banco",
+      "você mesmo."
+     ]
+    ],
+    [
+     "cta",
+     "Salva pra ver depois 🔖"
+    ]
+   ],
+   "caption": "Banco nenhum manda link pedindo senha ou código. Na dúvida, não clique: abra o app oficial você mesmo.\n\nSalva pra ver depois 🔖\n\n#golpe #phishing #segurancadigital #banco"
+  },
+  "video_url": "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d02-link-falso-banco/reel.mp4",
+  "cover_url": "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d02-link-falso-banco/cover.jpg",
+  "trial": true
+ },
+ {
+  "id": "d04-voz-clonada",
+  "slot": "noite",
+  "publish_at": "2026-11-24T23:00+01:00",
+  "type": "reel",
+  "caption": "Com IA, golpistas conseguem imitar a voz de alguém da sua família. Combine hoje uma palavra-secreta com quem você ama.\n\nManda pra sua família 👨‍👩‍👧\n\n#golpe #inteligenciaartificial #ia #segurancadigital",
+  "status": "aguardando aprovação",
+  "source": {
+   "id": "d04-voz-clonada",
+   "date": "2026-11-24",
+   "type": "reel",
+   "trial": false,
+   "tag": "IA + GOLPE",
+   "scenes": [
+    [
+     "hook",
+     "Essa voz parece da sua mãe.",
+     "FOI FEITA POR IA"
+    ],
+    [
+     "item",
+     "!",
+     "Poucos segundos de áudio",
+     "podem bastar para clonar uma voz"
+    ],
+    [
+     "sms",
+     "Mãe (número novo)",
+     "Oi filho, mudei de número. Tô com um problema, consegue me fazer um Pix agora?"
+    ],
+    [
+     "item",
+     "1",
+     "Combine uma palavra-secreta",
+     "com a sua família"
+    ],
+    [
+     "item",
+     "2",
+     "Desligue e ligue",
+     "para o número antigo da pessoa"
+    ],
+    [
+     "item",
+     "3",
+     "Urgência + Pix",
+     "= sinal vermelho"
+    ],
+    [
+     "cta",
+     "Manda pra sua família 👨‍👩‍👧"
+    ]
+   ],
+   "caption": "Com IA, golpistas conseguem imitar a voz de alguém da sua família. Combine hoje uma palavra-secreta com quem você ama.\n\nManda pra sua família 👨‍👩‍👧\n\n#golpe #inteligenciaartificial #ia #segurancadigital"
+  },
+  "video_url": "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d04-voz-clonada/reel.mp4",
+  "cover_url": "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d04-voz-clonada/cover.jpg",
+  "trial": false
+ },
+ {
+  "id": "d05-checklist-celular",
+  "slot": "noite",
+  "publish_at": "2026-11-25T23:00+01:00",
+  "type": "carousel",
+  "caption": "Checklist rápido: quantos desses 6 itens o seu celular já tem? Salva pra conferir com calma.\n\nManda pra quem precisa 📲\n\n#segurancadigital #celular #dicas #ciberseguranca",
+  "status": "aguardando aprovação",
+  "source": {
+   "id": "d05-checklist-celular",
+   "date": "2026-11-25",
+   "type": "carousel",
+   "trial": false,
+   "cover": [
+    "CHECKLIST",
+    "Seu celular está",
+    "seguro?",
+    "6 itens · salva pra conferir depois"
+   ],
+   "slides": [
+    [
+     "1",
+     "Bloqueio de tela",
+     [
+      "Senha forte ou biometria.",
+      "Nada de 1234 ou data",
+      "de nascimento."
+     ]
+    ],
+    [
+     "2",
+     "Tudo atualizado",
+     [
+      "Sistema e apps em dia",
+      "fecham falhas que",
+      "hackers já conhecem."
+     ]
+    ],
+    [
+     "3",
+     "Duas etapas",
+     [
+      "Ative no WhatsApp,",
+      "no e-mail e no banco."
+     ]
+    ],
+    [
+     "4",
+     "Só loja oficial",
+     [
+      "Baixe apps só da",
+      "Play Store ou App Store",
+      "e revise as permissões."
+     ]
+    ],
+    [
+     "5",
+     "Localizar aparelho",
+     [
+      "Ative o Encontrar meu",
+      "dispositivo (Android)",
+      "ou o Buscar (iPhone)."
+     ]
+    ],
+    [
+     "6",
+     "Backup ligado",
+     [
+      "Se perder o celular,",
+      "suas fotos e conversas",
+      "continuam salvas."
+     ]
+    ]
+   ],
+   "end": [
+    "Quantos você já",
+    "tem ativado?",
+    "Manda pra quem precisa 📲"
+   ],
+   "caption": "Checklist rápido: quantos desses 6 itens o seu celular já tem? Salva pra conferir com calma.\n\nManda pra quem precisa 📲\n\n#segurancadigital #celular #dicas #ciberseguranca"
+  },
+  "image_urls": [
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d05-checklist-celular/slide01.jpg",
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d05-checklist-celular/slide02.jpg",
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d05-checklist-celular/slide03.jpg",
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d05-checklist-celular/slide04.jpg",
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d05-checklist-celular/slide05.jpg",
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d05-checklist-celular/slide06.jpg",
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d05-checklist-celular/slide07.jpg",
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d05-checklist-celular/slide08.jpg"
+  ]
+ },
+ {
+  "id": "d06-senha-vazou",
+  "slot": "noite",
+  "publish_at": "2026-11-26T23:00+01:00",
+  "type": "reel",
+  "caption": "Em 30 segundos você descobre se seu e-mail apareceu em algum vazamento. Se apareceu, troque a senha e não repita em outros sites.\n\nSalva pra ver depois 🔖\n\n#senha #vazamento #segurancadigital #privacidade",
+  "status": "aguardando aprovação",
+  "source": {
+   "id": "d06-senha-vazou",
+   "date": "2026-11-26",
+   "type": "reel",
+   "trial": false,
+   "tag": "SEGURANÇA",
+   "scenes": [
+    [
+     "hook",
+     "Sua senha pode estar",
+     "À VENDA AGORA"
+    ],
+    [
+     "item",
+     "1",
+     "Entre em",
+     "haveibeenpwned.com"
+    ],
+    [
+     "item",
+     "2",
+     "Digite seu e-mail",
+     "o site é gratuito"
+    ],
+    [
+     "item",
+     "3",
+     "Veja em quais vazamentos",
+     "ele já apareceu"
+    ],
+    [
+     "tip",
+     "Apareceu?",
+     [
+      "Troque a senha desse site",
+      "e de onde você repetiu ela.",
+      "Uma senha diferente por site."
+     ]
+    ],
+    [
+     "cta",
+     "Salva pra ver depois 🔖"
+    ]
+   ],
+   "caption": "Em 30 segundos você descobre se seu e-mail apareceu em algum vazamento. Se apareceu, troque a senha e não repita em outros sites.\n\nSalva pra ver depois 🔖\n\n#senha #vazamento #segurancadigital #privacidade"
+  },
+  "video_url": "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d06-senha-vazou/reel.mp4",
+  "cover_url": "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d06-senha-vazou/cover.jpg",
+  "trial": false
+ },
+ {
+  "id": "d07-entrevista-falsa",
+  "slot": "noite",
+  "publish_at": "2026-11-27T23:00+01:00",
+  "type": "reel",
+  "caption": "A Binance revelou que o maior roubo de cripto do ano começou com uma entrevista de emprego falsa. O FBI atribuiu o ataque à Coreia do Norte.\n\nManda pra quem tá procurando emprego 💼\n\n#binance #hackers #cripto #ciberseguranca",
+  "status": "aguardando aprovação",
+  "source": {
+   "id": "d07-entrevista-falsa",
+   "date": "2026-11-27",
+   "type": "reel",
+   "trial": true,
+   "tag": "TECH EM 30s",
+   "scenes": [
+    [
+     "hook",
+     "Uma entrevista de emprego falsa",
+     "US$ 6 BILHÕES"
+    ],
+    [
+     "item",
+     "1",
+     "Hackers se passaram por recrutadores",
+     "e entrevistaram um engenheiro da Binance"
+    ],
+    [
+     "item",
+     "2",
+     "Pediram um \"teste de programação\"",
+     "que escondia um malware"
+    ],
+    [
+     "item",
+     "3",
+     "Com o acesso, roubaram",
+     "mais de US$ 6 bilhões em cripto"
+    ],
+    [
+     "tip",
+     "A lição:",
+     [
+      "Nunca rode arquivo ou código",
+      "de recrutador desconhecido",
+      "no computador do trabalho."
+     ]
+    ],
+    [
+     "cta",
+     "Manda pra quem tá procurando emprego 💼"
+    ]
+   ],
+   "caption": "A Binance revelou que o maior roubo de cripto do ano começou com uma entrevista de emprego falsa. O FBI atribuiu o ataque à Coreia do Norte.\n\nManda pra quem tá procurando emprego 💼\n\n#binance #hackers #cripto #ciberseguranca"
+  },
+  "video_url": "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d07-entrevista-falsa/reel.mp4",
+  "cover_url": "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d07-entrevista-falsa/cover.jpg",
+  "trial": true
+ },
+ {
+  "id": "d09-duas-etapas",
+  "slot": "noite",
+  "publish_at": "2026-11-29T23:00+01:00",
+  "type": "reel",
+  "caption": "Com a verificação em duas etapas, só a senha não basta para entrarem na sua conta. Leva 1 minuto em cada app.\n\nSalva e faz hoje 🔖\n\n#2fa #segurancadigital #whatsapp #instagram",
+  "status": "aguardando aprovação",
+  "source": {
+   "id": "d09-duas-etapas",
+   "date": "2026-11-29",
+   "type": "reel",
+   "trial": false,
+   "tag": "FAÇA AGORA",
+   "scenes": [
+    [
+     "hook",
+     "1 minuto que protege",
+     "SUAS CONTAS"
+    ],
+    [
+     "item",
+     "W",
+     "WhatsApp",
+     "Configurações → Conta → Confirmação em duas etapas"
+    ],
+    [
+     "item",
+     "I",
+     "Instagram",
+     "Central de Contas → Senha e segurança → Autenticação de dois fatores"
+    ],
+    [
+     "item",
+     "G",
+     "Google",
+     "myaccount.google.com → Segurança → Verificação em duas etapas"
+    ],
+    [
+     "tip",
+     "Dica:",
+     [
+      "Prefira app autenticador",
+      "em vez de SMS."
+     ]
+    ],
+    [
+     "cta",
+     "Salva e faz hoje 🔖"
+    ]
+   ],
+   "caption": "Com a verificação em duas etapas, só a senha não basta para entrarem na sua conta. Leva 1 minuto em cada app.\n\nSalva e faz hoje 🔖\n\n#2fa #segurancadigital #whatsapp #instagram"
+  },
+  "video_url": "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d09-duas-etapas/reel.mp4",
+  "cover_url": "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d09-duas-etapas/cover.jpg",
+  "trial": false
+ },
+ {
+  "id": "d10-kit-nomade",
+  "slot": "noite",
+  "publish_at": "2026-11-30T23:00+01:00",
+  "type": "carousel",
+  "caption": "5 itens que todo nômade digital (ou quem viaja muito) deveria ter configurado. Salva antes da próxima viagem.\n\nManda pro amigo que vive viajando ✈️\n\n#nomadedigital #segurancadigital #viagem #vpn",
+  "status": "aguardando aprovação",
+  "source": {
+   "id": "d10-kit-nomade",
+   "date": "2026-11-30",
+   "type": "carousel",
+   "trial": false,
+   "cover": [
+    "NÔMADE DIGITAL",
+    "Kit de segurança",
+    "pra viajar",
+    "5 itens · salva antes da próxima viagem"
+   ],
+   "slides": [
+    [
+     "1",
+     "VPN no Wi-Fi público",
+     [
+      "Café, aeroporto e hotel:",
+      "ligue a VPN antes de",
+      "acessar banco ou e-mail."
+     ]
+    ],
+    [
+     "2",
+     "Gerenciador de senhas",
+     [
+      "Uma senha forte e",
+      "diferente para cada site,",
+      "sem precisar decorar."
+     ]
+    ],
+    [
+     "3",
+     "App autenticador",
+     [
+      "Duas etapas por app,",
+      "não por SMS: funciona",
+      "mesmo sem chip local."
+     ]
+    ],
+    [
+     "4",
+     "Seu próprio carregador",
+     [
+      "Evite portas USB públicas.",
+      "Use seu carregador",
+      "na tomada."
+     ]
+    ],
+    [
+     "5",
+     "Backup + localizar",
+     [
+      "Se o notebook ou celular",
+      "sumir, você localiza,",
+      "apaga e recupera tudo."
+     ]
+    ]
+   ],
+   "end": [
+    "Qual desses",
+    "você não usa ainda?",
+    "Manda pro amigo que vive viajando ✈️"
+   ],
+   "caption": "5 itens que todo nômade digital (ou quem viaja muito) deveria ter configurado. Salva antes da próxima viagem.\n\nManda pro amigo que vive viajando ✈️\n\n#nomadedigital #segurancadigital #viagem #vpn"
+  },
+  "image_urls": [
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d10-kit-nomade/slide01.jpg",
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d10-kit-nomade/slide02.jpg",
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d10-kit-nomade/slide03.jpg",
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d10-kit-nomade/slide04.jpg",
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d10-kit-nomade/slide05.jpg",
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d10-kit-nomade/slide06.jpg",
+   "https://raw.githubusercontent.com/aum-oss/instagram-posts/main/2026-11/d10-kit-nomade/slide07.jpg"
+  ]
+ }
+]
