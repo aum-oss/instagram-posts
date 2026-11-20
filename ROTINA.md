@@ -41,3 +41,30 @@ Se não houver post aprovado para hoje, não publicar nada.
 - Nunca apagar posts nem responder comentários automaticamente.
 - Commits terminam com:
   `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`
+
+## Banco de ganchos (primeira tela do reel — escolha e adapte)
+Regra: o gancho aparece já no primeiro quadro, curto (máx. 8 palavras na linha de destaque), sem exagero nem mentira.
+1. "Isso aconteceu ontem e pode afetar você."
+2. "Se você usa [app/banco], preste atenção."
+3. "[X] milhões de pessoas tiveram dados expostos."
+4. "Esse golpe está pegando muita gente agora."
+5. "Seu [WhatsApp/Pix/celular] pode ser o próximo."
+6. "Ninguém te avisou disso sobre [IA/Pix/WhatsApp]."
+7. "Pare de fazer isso com sua senha."
+8. "Parece real, mas é golpe."
+9. "Os hackers não invadiram. Alguém abriu a porta."
+10. "Uma mensagem. Foi só isso que precisou."
+11. "A IA agora está do lado dos golpistas também."
+12. "Se recebeu essa mensagem, não clique."
+13. "O que fazer se seus dados vazaram (em 30s)."
+14. "A empresa só contou semanas depois."
+15. "Isso não é filme: aconteceu esta semana."
+16. "3 sinais de que você caiu nesse golpe."
+17. "Até [empresa grande] caiu nessa."
+18. "Seu banco nunca vai te pedir isso."
+19. "Você tem 1 minuto? Proteja sua conta agora."
+20. "O golpe mudou. Veja como ele funciona hoje."
+
+## Palavras-chave (busca do Instagram)
+Usar no texto do vídeo E na legenda o termo que as pessoas digitam na busca:
+"golpe do Pix", "WhatsApp clonado", "vazamento de dados", "senha vazada", "golpe no Instagram", "golpe com IA", "dados vazados", "conta hackeada".
