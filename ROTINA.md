@@ -4,7 +4,9 @@ Conta Instagram via Windsor.ai: conector `instagram`, conta `17841472160483728`.
 Imagens e vídeos são servidos (GitHub Pages; após o push, aguardar ~1–2 min para o arquivo ficar disponível) por `https://aum-oss.github.io/instagram-posts/<caminho>`.
 Horários em Europe/Paris. Brasília = Paris − 4h.
 
-## 1. Notícia do dia (manhã) — preparar às ~9h, publicar às 10h40 (6h40 Brasília)
+## 1. Notícia do dia (manhã) — roda às 10h17, publica automaticamente por volta de 10h30 (6h30 Brasília)
+
+O usuário autorizou publicar SEM aprovação prévia. Por isso a checagem de fatos é obrigatória e rígida; se nenhuma notícia passar, não publicar e avisar.
 
 1. Pesquisar na web ataques cibernéticos / incidentes de segurança / golpes das **últimas 24–48h**.
    - Fontes confiáveis: The Hacker News, BleepingComputer, SecurityWeek, The Record, Reuters, AP, CERTs/agências oficiais, comunicado da própria empresa.
@@ -17,9 +19,8 @@ Horários em Europe/Paris. Brasília = Paris − 4h.
    Rodar: `python3 tools/render.py 2026-11/<pasta>/post.json 2026-11/<pasta>`.
 3. Legenda: 2 a 4 linhas, termina com UMA ação ("Manda pra quem precisa", "Salva pra ver depois"...), 3 a 5 hashtags. Fonte citada na legenda ("Fonte: <veículo>").
 4. Commit + push. Adicionar a entrada em `posts.json` (slot `manha`, status `aguardando aprovação`).
-5. **Pedir aprovação**: enviar notificação push ao usuário com o tema, a legenda e o link do vídeo; perguntar "Posso publicar às 10h40?".
-6. Só publicar depois do "ok" do usuário. Se o ok vier antes das 10h40, agendar a publicação para 10h40 nesta mesma sessão; se vier depois, publicar na hora.
-   Ação: `create_video_post` com `video_url`, `cover_url`, `caption`.
+5. Publicar: `create_video_post` com `video_url`, `cover_url`, `caption`, `share_to_feed: true`.
+6. Avisar o usuário (mensagem curta) com tema, fonte e que já está no ar.
 7. Depois de publicar: status `publicado` + media id em `posts.json` e `POSTS.md`, commit + push.
 
 ## 2. Post de dica (noite) — 23h00 Paris (19h Brasília)
