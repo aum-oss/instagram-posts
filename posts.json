@@ -1,5 +1,15 @@
 [
  {
+  "id": "2026-11-20-noticia",
+  "slot": "manha",
+  "publish_at": "2026-11-20T17:56+01:00",
+  "type": "reel",
+  "status": "publicado",
+  "media_id": "18118086712834223",
+  "theme": "Comissão Europeia atacada com IA",
+  "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-20-noticia/reel.mp4"
+ },
+ {
   "id": "d01-whatsapp-clonado",
   "slot": "noite",
   "publish_at": "2026-11-21T23:00+01:00",
