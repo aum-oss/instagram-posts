@@ -10,6 +10,16 @@
   "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-20-noticia/reel.mp4"
  },
  {
+  "id": "2026-11-20-ia-bancos",
+  "slot": "extra",
+  "publish_at": "2026-11-20T18:52+01:00",
+  "type": "image",
+  "status": "publicado",
+  "media_id": "18135414325682638",
+  "theme": "Bancos: cliente responde por agente de IA",
+  "image_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-20-ia-bancos/post.jpg"
+ },
+ {
   "id": "d01-whatsapp-clonado",
   "slot": "noite",
   "publish_at": "2026-11-21T23:00+01:00",

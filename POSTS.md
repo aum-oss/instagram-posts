@@ -6,6 +6,7 @@ Notícias do dia (manhã, 10h40 Paris) entram aqui conforme forem aprovadas.
 |---|---|---|---|---|
 | 2026-11-20 | — | Hackers esquentam freezers a 50°C na Europa | imagem | publicado (media id 18079185479568516) |
 | 2026-11-20 | extra 17h56 | Comissão Europeia hackeada com ajuda de IA | reel | publicado (media id 18118086712834223) |
+| 2026-11-20 | extra 18h52 | Bancos: prejuízo de agente de IA é do cliente | imagem | publicado (media id 18135414325682638) |
 | 2026-11-21 | noite 23h | 5 sinais de WhatsApp clonado | reel | aprovado |
 | 2026-11-22 | noite 23h | Link falso do banco | reel (trial) | aprovado |
 | 2026-11-24 | noite 23h | Golpe da voz clonada por IA | reel | aprovado |
