@@ -11,7 +11,12 @@ O usuário autorizou publicar SEM aprovação prévia. Por isso a checagem de fa
 1. Pesquisar na web ataques cibernéticos / incidentes de segurança / golpes das **últimas 24–48h**.
    - Fontes confiáveis: The Hacker News, BleepingComputer, SecurityWeek, The Record, Reuters, AP, CERTs/agências oficiais, comunicado da própria empresa.
    - Só fatos confirmados por pelo menos uma fonte confiável. Se algo ainda é suspeita, dizer "suspeita de". Números: usar o valor mais conservador.
-   - Preferir: nomes conhecidos (big techs, bancos, apps populares), impacto em pessoas comuns, Brasil/Europa, IA.
+   - Critério editorial: notícias FORTES e IMPORTANTES, de interesse do público em geral (não só de quem trabalha com TI).
+     Prioridade: o que afeta o dia a dia das pessoas (bancos, Pix, WhatsApp, Instagram, celular, compras, serviços públicos, saúde, transporte),
+     nomes conhecidos, impacto em muita gente, Brasil primeiro, depois Europa/EUA, e IA.
+     Evitar: notícias técnicas de nicho (CVEs, ferramentas de empresa, falhas que só afetam servidores) a menos que mexam com o público.
+   - Tom: sério, respeitoso e útil. Sem sensacionalismo, sem medo exagerado, sem piada com vítimas ou empresas atingidas.
+     Explicar em linguagem simples, sem jargão, e sempre terminar com o que a pessoa comum pode fazer para se proteger.
    - Não repetir tema já listado em `POSTS.md`.
 2. Criar um reel no padrão do perfil com `tools/render.py` (tag `ATAQUE DO DIA`):
    cenas = hook (frase curta + destaque) → 2 a 3 itens com o que aconteceu → `tip` "O que fazer:" → `cta`.
