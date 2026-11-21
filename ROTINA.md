@@ -23,7 +23,7 @@ O usuário autorizou publicar SEM aprovação prévia. Por isso a checagem de fa
    cenas = hook (frase curta + destaque) → 2 a 3 itens com o que aconteceu → `tip` "O que fazer:" → `cta`.
    Salvar o JSON em `2026-11/<AAAA-MM-DD>-noticia/post.json` e gerar em `2026-11/<AAAA-MM-DD>-noticia/`.
    Rodar: `python3 tools/render.py 2026-11/<pasta>/post.json 2026-11/<pasta>`.
-   Ritmo: o padrão do render.py é `pace` 1.5 (cada tela fica 50% mais tempo; pedido do usuário em 21/11). Não acelerar.
+   Ritmo: o padrão do render.py é `pace` 2.25 (pedido do usuário em 21/11: título ~7s, cada item ~7s, "O que fazer" 9s). Não definir `pace` no post.json nem acelerar.
 3. Datas (pedido do usuário em 21/11): sempre situar o público no tempo. No vídeo, a data do ataque/divulgação aparece já no gancho ou no item 1 (ex.: "em 14/11"); na legenda, a primeira linha diz quando aconteceu e quando foi divulgado (dia/mês).
    Legenda: 2 a 4 linhas, termina com UMA ação ("Manda pra quem precisa", "Salva pra ver depois"...), 3 a 5 hashtags. Fonte citada na legenda ("Fonte: <veículo>").
 4. Commit + push. Adicionar a entrada em `posts.json` (slot `manha`, status `aguardando aprovação`).
