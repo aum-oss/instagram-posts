@@ -14,6 +14,7 @@ O usuário autorizou publicar SEM aprovação prévia. Por isso a checagem de fa
    - Critério editorial: notícias FORTES e IMPORTANTES, de interesse do público em geral (não só de quem trabalha com TI).
      Prioridade: o que afeta o dia a dia das pessoas (bancos, Pix, WhatsApp, Instagram, celular, compras, serviços públicos, saúde, transporte),
      nomes conhecidos, impacto em muita gente, Brasil primeiro, depois Europa/EUA, e IA.
+     Também valem ataques a instituições muito conhecidas (FBI, governos, ministérios, grandes órgãos públicos), mesmo sem impacto direto no dia a dia — o usuário pediu esse tipo de notícia em 21/11 (ex.: invasão do banco de dados criminal do FBI). Se ainda não houver confirmação oficial, dizer "suspeita de" e citar os veículos.
      Evitar: notícias técnicas de nicho (CVEs, ferramentas de empresa, falhas que só afetam servidores) a menos que mexam com o público.
    - Tom: sério, respeitoso e útil. Sem sensacionalismo, sem medo exagerado, sem piada com vítimas ou empresas atingidas.
      Explicar em linguagem simples, sem jargão, e sempre terminar com o que a pessoa comum pode fazer para se proteger.

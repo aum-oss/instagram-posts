@@ -1,0 +1,44 @@
+{
+ "id": "2026-11-21-urgente",
+ "type": "reel",
+ "tag": "ATAQUE DO DIA",
+ "scenes": [
+  [
+   "hook",
+   "20/11: suspeita de invasão hacker no",
+   "FBI E NO GOVERNO DOS EUA"
+  ],
+  [
+   "item",
+   "1",
+   "Fichas criminais e mandados de prisão",
+   "Sistema usado pela polícia de todos os EUA, segundo a CNN e a NBC"
+  ],
+  [
+   "item",
+   "2",
+   "No mesmo dia: Agricultura dos EUA",
+   "Sistema que paga agricultores foi atacado, segundo a NBC"
+  ],
+  [
+   "item",
+   "3",
+   "FBI ainda não confirmou",
+   "Trump disse que \"não é bom\". Autoria e dados levados ainda são desconhecidos"
+  ],
+  [
+   "tip",
+   "O que isso ensina:",
+   [
+    "Se até o FBI é alvo,",
+    "seus dados também são.",
+    "Ative as 2 etapas e use",
+    "senhas diferentes."
+   ]
+  ],
+  [
+   "cta",
+   "Manda pra quem acha que não é alvo"
+  ]
+ ]
+}
