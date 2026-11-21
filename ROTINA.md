@@ -22,6 +22,7 @@ O usuário autorizou publicar SEM aprovação prévia. Por isso a checagem de fa
    cenas = hook (frase curta + destaque) → 2 a 3 itens com o que aconteceu → `tip` "O que fazer:" → `cta`.
    Salvar o JSON em `2026-11/<AAAA-MM-DD>-noticia/post.json` e gerar em `2026-11/<AAAA-MM-DD>-noticia/`.
    Rodar: `python3 tools/render.py 2026-11/<pasta>/post.json 2026-11/<pasta>`.
+   Ritmo: o padrão do render.py é `pace` 1.5 (cada tela fica 50% mais tempo; pedido do usuário em 21/11). Não acelerar.
 3. Legenda: 2 a 4 linhas, termina com UMA ação ("Manda pra quem precisa", "Salva pra ver depois"...), 3 a 5 hashtags. Fonte citada na legenda ("Fonte: <veículo>").
 4. Commit + push. Adicionar a entrada em `posts.json` (slot `manha`, status `aguardando aprovação`).
 5. Publicar: `create_video_post` com `video_url`, `cover_url`, `caption`, `share_to_feed: true`.

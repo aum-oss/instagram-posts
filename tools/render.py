@@ -147,7 +147,7 @@ def ease(x): return 1 - (1 - min(max(x, 0), 1)) ** 3
 def render_reel(p, folder):
     bg = background(W, H).convert('RGBA'); tag = tag_layer(p["tag"])
     base = Image.alpha_composite(bg, tag)
-    pace = float(p.get("pace", 1.0))  # >1 = cenas mais longas (ex.: 1.5 = 50% mais tempo em cada tela)
+    pace = float(p.get("pace", 1.5))  # >1 = cenas mais longas (ex.: 1.5 = 50% mais tempo em cada tela)
     scenes = [(scene_layer(s), dur(s) * pace) for s in p["scenes"]]
     total = sum(d for _, d in scenes)
     wav = os.path.join(folder, "_music.wav"); music(total, wav, seed=hash(p["id"]) % 1000)
