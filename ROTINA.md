@@ -30,6 +30,18 @@ O usuário autorizou publicar SEM aprovação prévia. Por isso a checagem de fa
 6. Avisar o usuário (mensagem curta) com tema, fonte e que já está no ar.
 7. Depois de publicar: status `publicado` + media id em `posts.json` e `POSTS.md`, commit + push.
 
+## 1b. Varreduras de notícia urgente — 12h13 e 15h47 (Brasília), publica só se houver algo forte
+
+Objetivo: noticiar ataques recentes entre os primeiros, sem lotar o feed. A maioria das varreduras deve terminar SEM publicar.
+- Publicar só se TODOS forem verdade:
+  1. noticiado nas últimas ~6–8h (conferir a data/hora na matéria aberta);
+  2. impacto grande no público geral (banco, Pix, WhatsApp, app conhecido, governo, saúde, transporte...);
+  3. confirmado pela empresa, por órgão oficial ou por 2 veículos grandes (alegação só de hackers não serve);
+  4. tema não publicado antes em `POSTS.md` (salvo novidade relevante, como número novo de afetados);
+  5. ainda não houve nenhuma notícia extra hoje (slot `extra` em `posts.json` com data de hoje) — máximo 1 extra por dia.
+- Mesmo padrão do item 1 (reel `ATAQUE DO DIA`, datas no vídeo e na legenda, fonte na legenda, pace padrão). Pasta `2026-11/<AAAA-MM-DD>-urgente`, slot `extra`.
+- Se não publicar, não avisar o usuário.
+
 ## 2. Post de dica (noite) — 23h00 Paris (19h Brasília)
 
 Publicar a entrada de `posts.json` com `slot: noite` e data de hoje **somente se** `status` = `aprovado`.
