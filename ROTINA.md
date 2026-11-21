@@ -8,7 +8,7 @@ Horários em Europe/Paris. Brasília = Paris − 4h.
 
 O usuário autorizou publicar SEM aprovação prévia. Por isso a checagem de fatos é obrigatória e rígida; se nenhuma notícia passar, não publicar e avisar.
 
-1. Pesquisar na web ataques cibernéticos / incidentes de segurança / golpes das **últimas 24–48h**.
+1. Pesquisar na web, logo antes de publicar, ataques cibernéticos / incidentes de segurança / golpes noticiados nas **últimas horas** (desde a manhã de ontem, ~24h; o mais recente primeiro). Buscar com "hoje", "ontem" e a data do dia, em português e inglês. Só usar 24–48h se não houver nada forte nas últimas 24h; nunca mais antigo que 48h. Conferir a data de publicação na matéria aberta.
    - Fontes confiáveis: The Hacker News, BleepingComputer, SecurityWeek, The Record, Reuters, AP, CERTs/agências oficiais, comunicado da própria empresa.
    - Só fatos confirmados por pelo menos uma fonte confiável. Se algo ainda é suspeita, dizer "suspeita de". Números: usar o valor mais conservador.
    - Critério editorial: notícias FORTES e IMPORTANTES, de interesse do público em geral (não só de quem trabalha com TI).
