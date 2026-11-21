@@ -1,9 +1,45 @@
-{"id":"2026-11-21-noticia","type":"reel","tag":"ATAQUE DO DIA",
- "scenes":[
-  ["hook","O iFood confirmou um ataque hacker","DADOS EXPOSTOS"],
-  ["item","1","Invasão no dia 14, revelada no dia 19","A empresa avisou a ANPD e está mandando e-mail para os afetados"],
-  ["item","2","Entregadores: nome, CPF, e-mail e telefone","Clientes: número de telefone. Restaurantes: telefone e/ou CPF"],
-  ["item","3","Senhas e cartões não foram afetados","segundo o iFood, que não disse quantas pessoas foram atingidas"],
-  ["tip","O que fazer:",["O iFood não pede senha,","código ou pagamento","por mensagem ou ligação.","Na dúvida, não clique."]],
-  ["cta","Manda pra quem usa iFood"]
- ]}
+{
+ "id": "2026-11-21-noticia",
+ "type": "reel",
+ "tag": "ATAQUE DO DIA",
+ "scenes": [
+  [
+   "hook",
+   "O iFood confirmou um ataque hacker",
+   "DADOS EXPOSTOS"
+  ],
+  [
+   "item",
+   "1",
+   "Invasão no dia 14, revelada no dia 19",
+   "A empresa avisou a ANPD e está mandando e-mail para os afetados"
+  ],
+  [
+   "item",
+   "2",
+   "Entregadores: nome, CPF, e-mail e telefone",
+   "Clientes: número de telefone. Restaurantes: telefone e/ou CPF"
+  ],
+  [
+   "item",
+   "3",
+   "Senhas e cartões não foram afetados",
+   "segundo o iFood, que não disse quantas pessoas foram atingidas"
+  ],
+  [
+   "tip",
+   "O que fazer:",
+   [
+    "O iFood não pede senha,",
+    "código ou pagamento",
+    "por mensagem ou ligação.",
+    "Na dúvida, não clique."
+   ]
+  ],
+  [
+   "cta",
+   "Manda pra quem usa iFood"
+  ]
+ ],
+ "pace": 1.5
+}
