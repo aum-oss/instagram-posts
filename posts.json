@@ -4,7 +4,7 @@
   "slot": "manha",
   "publish_at": "2026-11-21T10:30+01:00",
   "type": "reel",
-  "status": "aguardando aprovação",
+  "status": "publicado",
   "theme": "iFood confirma ataque hacker e exposição de dados",
   "caption": "O iFood confirmou um ataque hacker com vazamento de dados de entregadores (nome, CPF, e-mail, telefone), restaurantes e clientes (telefone). Segundo a empresa, senhas e cartões não foram afetados.\nGolpistas podem usar esses dados para mandar mensagens falsas em nome do iFood: o app não pede senha, código ou pagamento por mensagem.\nFonte: Metrópoles e SBT News\n\nManda pra quem usa iFood 📲\n\n#ifood #vazamentodedados #golpe #segurancadigital",
   "sources": [
@@ -12,7 +12,8 @@
    "https://sbtnews.sbt.com.br/noticia/brasil/i-food-ciberataque-atinge-dados-de-entregadores-e-clientes"
   ],
   "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-21-noticia/reel.mp4",
-  "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-21-noticia/cover.jpg"
+  "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-21-noticia/cover.jpg",
+  "media_id": "17996690595025745"
  },
  {
   "id": "2026-11-20-noticia",
