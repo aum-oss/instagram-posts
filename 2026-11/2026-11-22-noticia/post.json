@@ -1,0 +1,44 @@
+{
+ "id": "2026-11-22-noticia",
+ "type": "reel",
+ "tag": "ATAQUE DO DIA",
+ "scenes": [
+  [
+   "hook",
+   "20/11: o WhatsApp corrigiu uma falha",
+   "SUSPEITA DE USO EM GOLPES"
+  ],
+  [
+   "item",
+   "1",
+   "Falha no WhatsApp para Android",
+   "Noticiada em 20/11. A correção já está na versão nova do app"
+  ],
+  [
+   "item",
+   "2",
+   "Deixava o golpe mais convincente",
+   "\"Acreditamos que um golpista a usava\", disse o WhatsApp. Ela também expunha o endereço de internet (IP) de quem recebia"
+  ],
+  [
+   "item",
+   "3",
+   "Alcance ainda desconhecido",
+   "O WhatsApp não disse quantas pessoas foram atingidas. Outras 2 falhas foram corrigidas, sem sinal de ataque"
+  ],
+  [
+   "tip",
+   "O que fazer:",
+   [
+    "Atualize o WhatsApp",
+    "pela loja oficial.",
+    "Mensagem que parece",
+    "oficial pode ser golpe."
+   ]
+  ],
+  [
+   "cta",
+   "Manda pra quem usa WhatsApp"
+  ]
+ ]
+}
