@@ -10,6 +10,7 @@ Notícias do dia (manhã, 10h40 Paris) entram aqui conforme forem aprovadas.
 | 2026-11-21 | manhã 10h30 | iFood confirma ataque hacker e exposição de dados (Metrópoles, SBT News) | reel | publicado (media id 17996690595025745) |
 | 2026-11-21 | extra 21h45 | Suspeita de invasão no banco de dados criminal do FBI + ataque à Agricultura dos EUA (CNN, NBC) | reel | publicado (media id 17968612622983854) |
 | 2026-11-21 | noite 23h | 5 sinais de WhatsApp clonado | reel | publicado (media id 17978245245187492) |
+| 2026-11-22 | manhã 10h30 | WhatsApp corrige falha no Android com suspeita de uso em golpes (The Hacker News, Olhar Digital) | reel | publicado (media id 18656324353021205) |
 | 2026-11-22 | noite 23h | Link falso do banco | reel (trial) | aprovado |
 | 2026-11-24 | noite 23h | Golpe da voz clonada por IA | reel | aprovado |
 | 2026-11-25 | noite 23h | Checklist de segurança do celular | carousel | aprovado |

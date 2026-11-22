@@ -4,7 +4,7 @@
   "slot": "manha",
   "publish_at": "2026-11-22T10:30+01:00",
   "type": "reel",
-  "status": "aguardando aprovação",
+  "status": "publicado",
   "theme": "WhatsApp corrige falha no Android com suspeita de uso em golpes",
   "caption": "Em 20/11, o WhatsApp divulgou a correção de 3 falhas no app. Uma delas, no Android, pode ter sido usada em golpes: segundo a empresa, um golpista a usava para deixar a mensagem mais convincente.\nO WhatsApp não disse quantas pessoas foram atingidas. A correção já está na versão nova do app.\nFonte: The Hacker News e Olhar Digital\n\nAtualize seu WhatsApp hoje pela loja oficial 📲\n\n#whatsapp #golpenowhatsapp #golpe #segurancadigital",
   "sources": [
@@ -13,7 +13,8 @@
    "https://guiadeti.com.br/noticias/whatsapp-corrige-tres-falhas-seguranca-uma-pode-ter-sido-usada-golpes/"
   ],
   "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-22-noticia/reel.mp4",
-  "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-22-noticia/cover.jpg"
+  "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-22-noticia/cover.jpg",
+  "media_id": "18656324353021205"
  },
  {
   "id": "2026-11-21-urgente",
