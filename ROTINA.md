@@ -47,6 +47,7 @@ Objetivo: noticiar ataques recentes entre os primeiros, sem lotar o feed. A maio
 
 Publicar a entrada de `posts.json` com `slot: noite` e data de hoje **somente se** `status` = `aprovado`.
 - reel → `create_video_post` (`video_url`, `cover_url`, `caption`; se `trial` = true, `trial_params: {graduation_strategy: SS_PERFORMANCE}`)
+  - Se o Instagram recusar o trial reel por falta de seguidores ("zu wenige Follower" / poucos seguidores), publicar de novo como reel normal (sem `trial_params`), marcar `trial: false` e anotar no POSTS.md e na mensagem final que saiu como reel normal.
 - carousel → `create_carousel_post` (`image_urls`, `caption`)
 Depois: status `publicado` + media id, atualizar `POSTS.md`, commit + push.
 Se não houver post aprovado para hoje, não publicar nada.
