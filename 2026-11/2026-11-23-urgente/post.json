@@ -1,0 +1,13 @@
+{
+ "id": "2026-11-23-urgente",
+ "type": "reel",
+ "tag": "ATAQUE DO DIA",
+ "scenes": [
+  ["hook", "Hoje, 23/11: LaLiga confirma", "ATAQUE HACKER E DADOS DE TORCEDORES ROUBADOS"],
+  ["item", "1", "Plataforma de torcedores invadida", "Ataque entre 14 e 16/11 em um serviço digital da liga espanhola"],
+  ["item", "2", "Dados pessoais roubados", "De usuários cadastrados na LaLiga e em alguns clubes. Quantidade ainda não divulgada"],
+  ["item", "3", "Polícia e autoridade de dados avisadas", "A LaLiga diz que bloqueou o invasor e que outros sistemas não foram afetados"],
+  ["tip", "O que fazer:", ["Desconfie de e-mails e", "mensagens em nome da", "LaLiga ou do seu clube.", "Nunca passe senha ou código."]],
+  ["cta", "Manda pro amigo que torce na Espanha"]
+ ]
+}
