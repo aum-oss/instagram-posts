@@ -1,5 +1,20 @@
 [
  {
+  "id": "2026-11-23-noticia",
+  "slot": "manha",
+  "publish_at": "2026-11-23T10:30+01:00",
+  "type": "reel",
+  "status": "aguardando publicação",
+  "theme": "Cleverbridge: hackers copiam número, validade e CVV de cartões",
+  "caption": "Invasão detectada em 04/11 e divulgada em 22/11: hackers copiaram dados de cartão (número, validade e CVV) da Cleverbridge, empresa que processa pagamentos de lojas de programas e apps na internet.\nA empresa não disse quantos clientes foram atingidos e avisa os afetados por e-mail desde 20/11. Nome e endereço não vazaram, segundo ela.\nFonte: BleepingComputer e comunicado da Cleverbridge\n\nConfira a fatura do seu cartão hoje 💳\n\n#vazamentodedados #cartaodecredito #golpe #segurancadigital",
+  "sources": [
+   "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+   "https://www.scworld.com/brief/cleverbridge-reports-data-breach-involving-payment-card-information"
+  ],
+  "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-23-noticia/reel.mp4",
+  "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-23-noticia/cover.jpg"
+ },
+ {
   "id": "2026-11-22-noticia",
   "slot": "manha",
   "publish_at": "2026-11-22T10:30+01:00",

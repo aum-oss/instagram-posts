@@ -1,0 +1,44 @@
+{
+ "id": "2026-11-23-noticia",
+ "type": "reel",
+ "tag": "ATAQUE DO DIA",
+ "scenes": [
+  [
+   "hook",
+   "Revelado em 22/11: cartões roubados",
+   "COMPRAS DE PROGRAMAS ONLINE"
+  ],
+  [
+   "item",
+   "1",
+   "Ataque à Cleverbridge",
+   "Ela processa pagamentos de lojas de programas e apps. A invasão foi detectada em 04/11"
+  ],
+  [
+   "item",
+   "2",
+   "Cartão e CVV copiados",
+   "Levaram número, validade e código de segurança. Nome e endereço não, diz a empresa"
+  ],
+  [
+   "item",
+   "3",
+   "Quantos? Não se sabe",
+   "A empresa não disse quantos clientes foram atingidos. Avisos por e-mail desde 20/11"
+  ],
+  [
+   "tip",
+   "O que fazer:",
+   [
+    "Confira a fatura do",
+    "cartão agora.",
+    "Viu compra estranha?",
+    "Peça um cartão novo."
+   ]
+  ],
+  [
+   "cta",
+   "Manda pra quem compra online"
+  ]
+ ]
+}
