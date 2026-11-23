@@ -13,6 +13,7 @@ Notícias do dia (manhã, 10h40 Paris) entram aqui conforme forem aprovadas.
 | 2026-11-22 | manhã 10h30 | WhatsApp corrige falha no Android com suspeita de uso em golpes (The Hacker News, Olhar Digital) | reel | publicado (media id 18656324353021205) |
 | 2026-11-22 | noite 23h | Link falso do banco | reel | publicado (media id 18133692604865821) |
 | 2026-11-23 | manhã 10h30 | Cleverbridge: hackers copiam número, validade e CVV de cartões (BleepingComputer) | reel | publicado (media id 17991904659109576) |
+| 2026-11-23 | extra 16h30 | LaLiga confirma ataque hacker e roubo de dados de torcedores (comunicado LaLiga, Reuters, EFE) | reel | publicado (media id 18131521228851382) |
 | 2026-11-24 | noite 23h | Golpe da voz clonada por IA | reel | aprovado |
 | 2026-11-25 | noite 23h | Checklist de segurança do celular | carousel | aprovado |
 | 2026-11-26 | noite 23h | Sua senha vazou? | reel | aprovado |

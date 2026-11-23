@@ -20,7 +20,7 @@
   "slot": "extra",
   "publish_at": "2026-11-23T16:30+01:00",
   "type": "reel",
-  "status": "aguardando publicação",
+  "status": "publicado",
   "theme": "LaLiga confirma ataque hacker e roubo de dados de torcedores",
   "caption": "Ataque aconteceu entre 14 e 16/11 e foi divulgado hoje, 23/11: a LaLiga, liga do futebol espanhol, confirmou que um hacker invadiu uma plataforma de torcedores e levou dados pessoais de usuários da liga e de alguns clubes.\nA liga ainda não disse quantas pessoas nem quais dados foram atingidos. A polícia espanhola e a autoridade de proteção de dados foram avisadas.\nFonte: comunicado da LaLiga, Reuters e EFE\n\nDesconfie de qualquer mensagem em nome da LaLiga ou do seu clube ⚽\n\n#vazamentodedados #laliga #golpe #segurancadigital",
   "sources": [
@@ -29,7 +29,8 @@
    "https://sports.yahoo.com/articles/laliga-security-breach-fans-personal-095700651.html"
   ],
   "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-23-urgente/reel.mp4",
-  "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-23-urgente/cover.jpg"
+  "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-23-urgente/cover.jpg",
+  "media_id": "18131521228851382"
  },
  {
   "id": "2026-11-22-noticia",
