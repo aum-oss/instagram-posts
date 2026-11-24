@@ -21,3 +21,4 @@ Notícias do dia (manhã, 10h40 Paris) entram aqui conforme forem aprovadas.
 | 2026-11-27 | noite 23h | Entrevista falsa da Binance | reel (trial) | aprovado |
 | 2026-11-29 | noite 23h | Ative a verificação em duas etapas | reel | aprovado |
 | 2026-11-30 | noite 23h | Kit de segurança do nômade | carousel | aprovado |
+| 2026-11-24 | série 16h30 | Ataques Reais #1: a ligação que derrubou a MGM | reel (motion graphics) | aprovado |

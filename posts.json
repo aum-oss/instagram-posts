@@ -651,5 +651,16 @@
   "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-24-noticia/reel.mp4",
   "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-24-noticia/cover.jpg",
   "media_id": "18103490519541195"
+ },
+ {
+  "id": "2026-11-24-serie-mgm",
+  "slot": "serie",
+  "publish_at": "2026-11-24T16:30+01:00",
+  "type": "reel",
+  "status": "aprovado",
+  "theme": "Série Ataques Reais #1: a ligação que derrubou a MGM",
+  "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-24-serie-mgm/reel.mp4",
+  "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-24-serie-mgm/cover.jpg",
+  "caption_file": "2026-11/2026-11-24-serie-mgm/caption.txt"
  }
 ]

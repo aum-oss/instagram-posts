@@ -1,0 +1,21 @@
+Setembro de 2023, Las Vegas. Uma ligação de uns 10 minutos derrubou a MGM, dona de alguns dos maiores hotéis e cassinos da cidade. 🎰
+
+O que quase ninguém conta:
+
+🔎 No começo, os hackers não invadiram nada. Entraram no LinkedIn, acharam um funcionário da MGM e usaram as informações que ele mesmo tinha publicado.
+
+📞 Depois ligaram para o suporte técnico da empresa, o setor que ajuda os funcionários com senha e acesso, fingindo ser essa pessoa. Segundo os próprios hackers, o suporte trocou a senha e liberou a conta.
+
+🔒 Com a conta na mão, travaram os sistemas com um vírus de sequestro (ransomware). Segundo eles, foram mais de 100 servidores.
+
+🏨 Resultado: hóspedes sem conseguir abrir o quarto, caça-níqueis parados e atendimento no papel por dias. A própria MGM calculou um prejuízo de cerca de US$ 100 milhões.
+
+"Isso é coisa de empresa grande", né? Não é.
+É o mesmo golpe que chega no seu celular: alguém liga dizendo ser do seu banco, já sabe seu nome e onde você trabalha, e pede só "um código pra confirmar". O que você posta vira material para o golpista.
+
+✅ Ninguém de verdade pede senha ou código por telefone.
+✅ Na dúvida, desligue e ligue você mesmo para o número oficial.
+
+Manda pra quem acha que isso nunca vai acontecer com ele 📲
+
+#golpe #engenhariasocial #ciberseguranca #segurancadigital #hackers
