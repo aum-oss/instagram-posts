@@ -173,7 +173,13 @@ def render(p, folder):
     base = Image.alpha_composite(pitch(), chrome(p))
     scenes = [(scene(s), DUR.get(s[0], 3.2) * float(p.get("pace", 1.0))) for s in p["scenes"]]
     total = sum(dd for _, dd in scenes)
-    wav = os.path.join(folder, "_music.wav"); music(total, wav, seed=abs(hash(p.get("id", ""))) % 1000)
+    # sem trilha por padrão (pedido do usuário em 24/11); "music": true liga a batida sintética
+    wav = os.path.join(folder, "_music.wav")
+    if p.get("music"): music(total, wav, seed=abs(hash(p.get("id", ""))) % 1000)
+    else:
+        import wave
+        with wave.open(wav, 'wb') as w:
+            w.setnchannels(1); w.setsampwidth(2); w.setframerate(44100); w.writeframes(b"\0\0" * int(total * 44100))
     mp4 = os.path.join(folder, "reel.mp4")
     proc = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
                              "-r", str(FPS), "-i", "-", "-i", wav, "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
