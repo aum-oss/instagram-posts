@@ -1,0 +1,17 @@
+{
+ "id": "futestrelas-2026-11-25-flamengo-deca-ou-enea",
+ "account": "futestrelas2026", "handle": "@futestrelas2026", "layout": "lenda", "type": "reel",
+ "accent": [200, 22, 36], "cover_t": 2.6,
+ "scenes": [
+  {"type": "hook", "dur": 3.0, "small": "Flamengo campeão brasileiro de 2026.", "big": "Deca ou enea?", "slam": "9 OU 10?", "slam_at": 1.35},
+  {"type": "match", "dur": 4.6, "label": "BRASILEIRÃO 2026", "chapter": "Nº 01", "date": "21.11.2026", "score": ["Palmeiras", "1", "1", "Flamengo"],
+   "title": "O empate no Nubank Parque garantiu o título", "chips": ["Para a CBF: 9º título", "Para o Flamengo: o 10º"]},
+  {"type": "number", "dur": 5.0, "label": "COPA UNIÃO · 1987", "chapter": "Nº 02", "date": "1987", "number": "1987", "number_size": 330, "number_x": 70, "number_y": 330, "text_y": 760,
+   "lines": ["Copa União.", "O Flamengo venceu o Internacional na final do torneio do Clube dos 13."], "note": "Para o clube, esse é o título de 1987."},
+  {"type": "match", "dur": 5.4, "label": "CBF · 1987", "chapter": "Nº 03", "date": "MÓDULO AMARELO",
+   "title": "Mas a CBF tinha outro caminho", "chips": ["Sport venceu o Guarani no outro módulo", "Flamengo e Inter recusaram o cruzamento final", "Na Justiça, o título ficou com o Sport"]},
+  {"type": "stats", "dur": 4.2, "label": "A CONTA", "chapter": "Nº 04", "date": "A CONTA",
+   "stats": [["9", "títulos para a CBF"], ["10", "na conta do Flamengo"]], "note": "A diferença é 1987."},
+  {"type": "cta", "dur": 3.6, "lines": ["E pra você, o Flamengo é", "deca ou enea? Comenta."]}
+ ]
+}

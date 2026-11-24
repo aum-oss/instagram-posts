@@ -264,10 +264,10 @@ def scene_hook(frame, t, s, ctx):
 def scene_number(frame, t, s, ctx):
     acc = ctx['accent']
     chapter_bar(frame, t, s['chapter'], s['date'], acc, 0)
-    big = text_img(s['number'], I('Black', 760), GOLD, stroke=3)
+    big = text_img(s['number'], I('Black', s.get('number_size', 760)), GOLD, stroke=3)
     p = ease((t - .05) / 1.1)
-    put(frame, big, 300 + (1 - p) * 60, 250, .55 * p, wipe=ease_io((t - .05) / 1.2))
-    y = 820
+    put(frame, big, s.get('number_x', 300) + (1 - p) * 60, s.get('number_y', 250), .55 * p, wipe=ease_io((t - .05) / 1.2))
+    y = s.get('text_y', 820)
     fT = I('Black', 104); fB = F(CARDO_I, 66); fS = I('Regular', 38)
     lines = s['lines']
     reveal(frame, text_img(lines[0], fT, IVORY), X0, y, t, .35); y += 128
@@ -285,9 +285,15 @@ def scene_number(frame, t, s, ctx):
 def scene_match(frame, t, s, ctx):
     acc = ctx['accent']
     chapter_bar(frame, t, s['chapter'], s['date'], acc, 0)
-    home, gh, ga, away = s['score']
     fN = I('SemiBold', 44); fG = I('Black', 210); fx = F(CARDO_I, 90)
     y = 370
+    if not s.get('score'):
+        y = 330
+        fT = F(CARDO_I, 76)
+        for j, w in enumerate(wrap(s['title'], fT, XR - X0)):
+            reveal(frame, text_img(w, fT, IVORY), X0, y, t, .15 + j * .1); y += 86
+        return _chips(frame, t, s, ctx, y + 30, .5)
+    home, gh, ga, away = s['score']
     reveal(frame, text_img(home.upper(), fN, IVORY, track=8), X0, y, t, .15)
     reveal(frame, text_img(away.upper(), fN, MUTED, track=8), XR, y, t, .25, anchor='r')
     y += 60
@@ -302,10 +308,13 @@ def scene_match(frame, t, s, ctx):
     fT = F(CARDO_I, 76)
     for j, w in enumerate(wrap(s['title'], fT, XR - X0)):
         reveal(frame, text_img(w, fT, IVORY), X0, y, t, .8 + j * .1); y += 86
-    y += 30
+    _chips(frame, t, s, ctx, y + 30, 1.3)
+
+def _chips(frame, t, s, ctx, y, tstart):
+    acc = ctx['accent']
     fC = I('Medium', 40); fNum = I('Black', 40)
     for i, c in enumerate(s['chips']):
-        t0 = 1.3 + i * .45
+        t0 = tstart + i * .45
         p = ease((t - t0) / .4)
         if p <= 0: continue
         lines = wrap(c, fC, XR - X0 - 120)
@@ -393,7 +402,50 @@ def scene_cta(frame, t, s, ctx):
     y += 80
     reveal(frame, text_img(ctx['handle'], I('SemiBold', 40), GOLD, track=3), X0, y, t, 1.1)
 
-SCENES = {'hook': scene_hook, 'number': scene_number, 'match': scene_match,
+def scene_table(frame, t, s, ctx):
+    acc = ctx['accent']
+    chapter_bar(frame, t, s['chapter'], s['date'], acc, 0)
+    y = 330
+    fT = F(CARDO_I, 76)
+    for j, w in enumerate(wrap(s['title'], fT, XR - X0)):
+        reveal(frame, text_img(w, fT, IVORY), X0, y, t, .1 + j * .1); y += 86
+    y += 20
+    fH = I('Medium', 26); fR = I('SemiBold', 44); fP = I('Black', 44)
+    reveal(frame, text_img('POS   TIME', fH, MUTED, track=4), X0, y, t, .3)
+    reveal(frame, text_img('PTS', fH, MUTED, track=4), XR - 20, y, t, .3, anchor='r')
+    y += 46
+    d = ImageDraw.Draw(frame)
+    cut = s.get('cut_after')
+    for i, row in enumerate(s['rows']):
+        pos, team, pts = row[:3]; extra = row[3] if len(row) > 3 else ''
+        t0 = .45 + i * .18
+        p = ease((t - t0) / .4)
+        hl = team == s.get('highlight')
+        rh = 78
+        if p > 0:
+            box = Image.new('RGBA', (XR - X0, rh - 8), (0, 0, 0, 0)); bd = ImageDraw.Draw(box)
+            bd.rounded_rectangle([0, 0, XR - X0 - 1, rh - 9], 14, fill=(acc + (215,)) if hl else (14, 15, 18, 185))
+            box.alpha_composite(text_img(f'{pos}º', fR, IVORY if hl else MUTED), (20, 8))
+            box.alpha_composite(text_img(team, fR, IVORY), (120, 8))
+            if extra:
+                ex = text_img(extra, I('Medium', 26), IVORY if hl else MUTED)
+                box.alpha_composite(ex, (130 + text_img(team, fR, IVORY).width, 22))
+            pt = text_img(str(pts), fP, IVORY if hl else GOLD)
+            box.alpha_composite(pt, (XR - X0 - 24 - pt.width, 8))
+            put(frame, box, X0 + (1 - p) * 30, y, p)
+        y += rh
+        if cut is not None and i == cut:
+            pc = ease((t - (t0 + .2)) / .5)
+            d.line([X0, y - 2, X0 + (XR - X0) * pc, y - 2], fill=acc + (255,), width=4)
+            put(frame, text_img(s.get('cut_label', 'Z4'), I('Black', 26), acc, track=4), XR, y + 4, pc, anchor='r')
+            y += 36
+    if s.get('note'):
+        y += 16
+        fN = I('Regular', 36)
+        for j, w in enumerate(wrap(s['note'], fN, XR - X0)):
+            reveal(frame, text_img(w, fN, MUTED), X0, y, t, 1.6 + j * .08); y += 48
+
+SCENES = {'table': scene_table, 'hook': scene_hook, 'number': scene_number, 'match': scene_match,
           'passes': scene_passes, 'stats': scene_stats, 'cta': scene_cta}
 
 # ---------------------------------------------------------------- áudio (trilha original gerada)

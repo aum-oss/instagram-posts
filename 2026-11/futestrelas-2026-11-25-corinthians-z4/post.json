@@ -1,0 +1,17 @@
+{
+ "id": "futestrelas-2026-11-25-corinthians-z4",
+ "account": "futestrelas2026", "handle": "@futestrelas2026", "layout": "lenda", "type": "reel",
+ "accent": [205, 26, 38], "cover_t": 2.6,
+ "scenes": [
+  {"type": "hook", "dur": 3.0, "small": "O Corinthians está no Z4", "big": "e tem 3 jogos pra sair.", "slam": "A CONTA.", "slam_at": 1.35},
+  {"type": "table", "dur": 5.6, "label": "BRASILEIRÃO 2026", "chapter": "Nº 01", "date": "APÓS A 36ª RODADA",
+   "title": "A briga lá embaixo", "highlight": "Corinthians", "cut_after": 3, "cut_label": "ZONA DE REBAIXAMENTO",
+   "rows": [[13, "Vitória", 44], [14, "Botafogo", 43], [15, "Grêmio", 41], [16, "Mirassol", 41], [17, "Corinthians", 40, "1 jogo a menos"], [18, "Internacional", 38]],
+   "note": "Remo e Chapecoense já estão rebaixados."},
+  {"type": "match", "dur": 5.0, "label": "RETA FINAL", "chapter": "Nº 02", "date": "3 JOGOS",
+   "title": "O que falta pro Timão", "chips": ["Qua 25/11 · Atlético-MG x Corinthians", "Dom 29/11 · Corinthians x Grêmio", "Qua 02/12 · Remo x Corinthians"]},
+  {"type": "number", "dur": 4.6, "label": "QUARTA · 25/11", "chapter": "Nº 03", "date": "QUARTA, 20H", "number": "43", "number_size": 600, "number_x": 330,
+   "lines": ["Venceu, saiu.", "Se vencer na quarta (25/11), chega a 43 pontos e passa Grêmio e Mirassol."], "note": "Os dois só voltam a jogar no domingo (29/11)."},
+  {"type": "cta", "dur": 3.6, "lines": ["Corinthians escapa ou cai?", "Deixa seu palpite."]}
+ ]
+}
