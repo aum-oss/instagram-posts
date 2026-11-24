@@ -445,7 +445,12 @@ def render(p, folder):
     scenes = p['scenes']
     durs = [float(s.get('dur', 4.0)) for s in scenes]
     starts = np.cumsum([0] + durs[:-1]); total = sum(durs)
-    wav = os.path.join(folder, '_trilha.wav'); score(total, wav, list(starts[1:]) + [s.get('slam_at', 1.45) for s in scenes[:1]])
+    wav = os.path.join(folder, '_trilha.wav')
+    hits = list(starts[1:]) + [s.get('slam_at', 1.45) for s in scenes[:1]]
+    if p.get('music'): score(total, wav, hits)  # sem trilha por padrão (pedido do usuário em 24/11)
+    else:
+        with wave.open(wav, 'wb') as w:
+            w.setnchannels(1); w.setsampwidth(2); w.setframerate(44100); w.writeframes(b'\0\0' * int(total * 44100))
     mp4 = os.path.join(folder, 'reel.mp4')
     proc = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}',
                              '-r', str(FPS), '-i', '-', '-i', wav, '-c:v', 'libx264', '-preset', 'medium', '-crf', '23', '-maxrate', '9M', '-bufsize', '18M',
