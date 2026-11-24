@@ -1,0 +1,18 @@
+{
+ "id": "futestrelas-2026-11-24-ronaldo-ia",
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "layout": "tv",
+ "type": "reel",
+ "tag": "VIRALIZOU",
+ "scoreboard": ["REAL", "IA", "VIRAL DA SEMANA"],
+ "colors": [[0, 150, 70], [150, 70, 230]],
+ "scenes": [
+  ["hook", "Viralizou nos últimos dias:", "ESSE GOLAÇO DO RONALDO É REAL?"],
+  ["item", "1", "Não. É IA", "O vídeo do Fenômeno driblando todo mundo foi criado com inteligência artificial, segundo o La República"],
+  ["item", "2", "Neymar e Adriano também", "Já circulam versões parecidas com outras lendas do futebol"],
+  ["item", "3", "257 mil curtidas", "Só uma das repostagens no Instagram passou disso"],
+  ["tip", "Como desconfiar", ["Procure quem postou primeiro", "Veja se tem o selo de IA", "Repare nas mãos, na camisa e na torcida"]],
+  ["cta", "Você caiu? Comenta"]
+ ]
+}

@@ -101,7 +101,11 @@ def scene(sc):
         for ln in wrap(sc[1], f1, MAXW):
             stroke_text(d, (X0, y), ln, f1, WHITE, 5); y += 74
         y += 20
-        fb = fit_font(sc[2], ANTON, 170, MAXW)
+        size = 170
+        while True:  # cabe na largura e termina antes do @ (y 1340)
+            fb = fit_font(sc[2], ANTON, size, MAXW)
+            if y + len(wrap(sc[2], fb, MAXW)) * fb.size * 1.12 <= 1340 or size <= 80: break
+            size -= 10
         for ln in wrap(sc[2], fb, MAXW):
             stroke_text(d, (X0, y), ln, fb, YEL, 8); y += int(fb.size * 1.12)
     elif k == "item":
@@ -118,7 +122,9 @@ def scene(sc):
         yy = y + 22
         for ln in lines: d.text((X0 + 36, yy), ln, font=fs, fill=WHITE); yy += 62
     elif k == "tip":
-        y = 600; f = fit_font(sc[1], ANTON, 150, MAXW)
+        y = 600; size = 150
+        while F(ANTON, size).getlength(sc[1].upper()) > MAXW and size > 70: size -= 6
+        f = F(ANTON, size)
         stroke_text(d, (X0, y), sc[1].upper(), f, YEL, 8); y += int(f.size * 1.3)
         fl = F(FB, 60)
         for ln in sc[2]:
