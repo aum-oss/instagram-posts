@@ -13,6 +13,7 @@ def F(p, s):
     return _fc[k]
 RED = (255, 80, 60); WHITE = (255, 255, 255); GREY = (200, 205, 215); DIM = (150, 160, 180)
 HANDLE = "@digitalnomad2050"
+TAG_ICON = "⚠ "
 EMOJI = re.compile("[\U0001F000-\U0001FAFF☀-➿‍️]+")
 def clean(t): return EMOJI.sub("", t).strip()
 
@@ -47,9 +48,9 @@ X0, MAXW = 90, 900
 
 def tag_layer(tag):
     L = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
-    f = F(B, 34); tw = f.getlength("⚠ " + tag)
+    f = F(B, 34); tw = f.getlength(TAG_ICON + tag)
     d.rounded_rectangle([X0, 230, X0 + tw + 44, 288], 12, fill=(220, 38, 38))
-    d.text((X0 + 22, 241), "⚠ " + tag, font=f, fill=WHITE)
+    d.text((X0 + 22, 241), TAG_ICON + tag, font=f, fill=WHITE)
     d.text((W // 2, 1640), HANDLE, font=F(MONO, 32), fill=DIM, anchor='mm')
     return L
 
@@ -217,6 +218,8 @@ if __name__ == "__main__":
     # post.json: mesmo formato dos itens de posts (type reel|carousel, scenes / cover+slides+end, tag)
     p = json.load(open(sys.argv[1], encoding="utf-8")); folder = sys.argv[2]
     os.makedirs(folder, exist_ok=True)
+    HANDLE = p.get("handle", HANDLE)  # outro perfil (ex.: @futestrelas2026)
+    TAG_ICON = p.get("tag_icon", TAG_ICON)
     if p["type"] == "reel":
         p["scenes"] = [tuple(x) for x in p["scenes"]]
         print("reel", round(render_reel(p, folder), 1), "s ->", folder)

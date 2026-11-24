@@ -1,0 +1,17 @@
+{
+ "id": "futestrelas-2026-11-24-final-libertadores",
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "tag_icon": "",
+ "type": "reel",
+ "tag": "FINAL DA LIBERTADORES",
+ "scenes": [
+  ["hook", "Sábado, 28/11, 58 anos depois:", "REVANCHE NO CENTENÁRIO"],
+  ["item", "1", "1968: Estudiantes campeão", "Venceu o Palmeiras no jogo-desempate da final, no Centenário, em Montevidéu"],
+  ["item", "2", "Agora: mesmo estádio, mesmo rival", "Palmeiras x Estudiantes, jogo único, sábado (28/11) às 17h"],
+  ["item", "3", "Como chegaram", "Palmeiras passou pelo Fluminense nos pênaltis. Estudiantes eliminou o Flamengo no Maracanã: Muslera pegou 3 pênaltis"],
+  ["item", "4", "Palmeiras busca o tetra", "Tem 3 títulos. O Estudiantes tem 4 e não joga uma final desde 2009"],
+  ["tip", "Quem leva?", ["Palmeiras: tetra e revanche", "Estudiantes: o 5º título"]],
+  ["cta", "Comenta seu placar da final"]
+ ]
+}
