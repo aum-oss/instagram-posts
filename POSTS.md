@@ -15,7 +15,7 @@ Notícias do dia (manhã, 10h40 Paris) entram aqui conforme forem aprovadas.
 | 2026-11-23 | manhã 10h30 | Cleverbridge: hackers copiam número, validade e CVV de cartões (BleepingComputer) | reel | publicado (media id 17991904659109576) |
 | 2026-11-23 | extra 16h30 | LaLiga confirma ataque hacker e roubo de dados de torcedores (comunicado LaLiga, Reuters, EFE) | reel | publicado (media id 18131521228851382) |
 | 2026-11-24 | manhã 10h30 | Bell (Canadá) confirma ataque "agêntico" com dados de clientes de 5 marcas (The Canadian Press, BetaKit) | reel | publicado (media id 18103490519541195) |
-| 2026-11-24 | noite 23h | Golpe da voz clonada por IA | reel | aprovado |
+| 2026-11-24 | noite 23h | Golpe da voz clonada por IA | reel | publicado (media id 18120131465588586) |
 | 2026-11-25 | noite 23h | Checklist de segurança do celular | carousel | aprovado |
 | 2026-11-26 | noite 23h | Sua senha vazou? | reel | aprovado |
 | 2026-11-27 | noite 23h | Entrevista falsa da Binance | reel (trial) | aprovado |
