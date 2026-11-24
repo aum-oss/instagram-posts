@@ -1,0 +1,44 @@
+{
+ "id": "2026-11-24-noticia",
+ "type": "reel",
+ "tag": "ATAQUE DO DIA",
+ "scenes": [
+  [
+   "hook",
+   "Divulgado em 23/11: operadora do Canadá",
+   "BELL CONFIRMA ATAQUE COM DADOS DE CLIENTES"
+  ],
+  [
+   "item",
+   "1",
+   "Invasão em 17/11",
+   "No Canadá, clientes de cinco marcas, entre elas Bell, Virgin Plus e Lucky Mobile"
+  ],
+  [
+   "item",
+   "2",
+   "O que pode ter vazado",
+   "Nome, endereço, telefone, e-mail, número da conta e valor do último pagamento"
+  ],
+  [
+   "item",
+   "3",
+   "Ataque \"agêntico\"",
+   "Termo da Bell para invasor que usa IA que age sozinha. Cartão e dados bancários não foram acessados"
+  ],
+  [
+   "tip",
+   "O que fazer:",
+   [
+    "Golpista com seus dados",
+    "parece a empresa real.",
+    "Não clique em links:",
+    "ligue você para ela."
+   ]
+  ],
+  [
+   "cta",
+   "Manda pra quem recebe cobrança por e-mail"
+  ]
+ ]
+}
