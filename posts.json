@@ -641,14 +641,15 @@
   "slot": "manha",
   "publish_at": "2026-11-24T10:30+01:00",
   "type": "reel",
-  "status": "aguardando publicação",
+  "status": "publicado",
   "theme": "Bell (Canadá) confirma ataque \"agêntico\" com dados de clientes de 5 marcas",
-  "caption": "Ataque aconteceu em 17/11 e foi divulgado ontem, 23/11: a Bell, maior operadora do Canadá, confirmou que um invasor acessou dados de clientes da Bell, Bell Aliant, Bell MTS, Virgin Plus e Lucky Mobile.\nPodem ter sido expostos nome, endereço, telefone, e-mail e dados da conta. A empresa diz que cartões e dados bancários não foram acessados e chamou o ataque de \"agêntico\" (feito com IA que age sozinha).\nFonte: The Canadian Press e BetaKit\n\nRecebeu cobrança ou aviso por e-mail? Não clique: entre pelo app ou ligue você para a empresa 📞\n\n#vazamentodedados #golpe #segurancadigital #inteligenciaartificial",
+  "caption": "Ataque aconteceu em 17/11 e foi divulgado ontem, 23/11: a Bell, uma das maiores operadoras do Canadá, confirmou que um invasor acessou dados de clientes da Bell, Bell Aliant, Bell MTS, Virgin Plus e Lucky Mobile.\nPodem ter sido expostos nome, endereço, telefone, e-mail e dados da conta. A empresa diz que cartões e dados bancários não foram acessados e chamou o ataque de \"agêntico\" (feito com IA que age sozinha).\nFonte: The Canadian Press e BetaKit\n\nRecebeu cobrança ou aviso por e-mail? Não clique: entre pelo app ou ligue você para a empresa 📞\n\n#vazamentodedados #golpe #segurancadigital #inteligenciaartificial",
   "sources": [
    "https://ccentral.ca/bell-investigating-agentic-cyberattack-exposed-customer-information-last-week",
    "https://betakit.com/telecom-giant-bell-says-agentic-threat-actor-accessed-customer-information/"
   ],
   "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-24-noticia/reel.mp4",
-  "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-24-noticia/cover.jpg"
+  "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-24-noticia/cover.jpg",
+  "media_id": "18103490519541195"
  }
 ]
