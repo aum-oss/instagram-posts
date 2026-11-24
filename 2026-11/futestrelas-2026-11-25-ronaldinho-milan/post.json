@@ -1,0 +1,21 @@
+{
+ "id": "futestrelas-2026-11-25-ronaldinho-milan",
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "layout": "lenda",
+ "type": "reel",
+ "accent": [196, 24, 38],
+ "cover_t": 2.6,
+ "scenes": [
+  {"type": "hook", "dur": 3.0, "small": "Você acha que o Ronaldinho", "big": "acabou no Barça?", "slam": "ERRADO.", "slam_at": 1.35},
+  {"type": "number", "dur": 4.5, "label": "MILAN · 2008", "chapter": "Nº 01", "date": "MILÃO · 2008", "number": "80",
+   "lines": ["Camisa 80.", "80 de 1980, o ano em que ele nasceu."], "note": "A 10 já era do Seedorf."},
+  {"type": "match", "dur": 5.2, "label": "SERIE A · RODADA 20", "chapter": "Nº 02", "date": "17.01.2010", "score": ["Milan", "4", "0", "Siena"],
+   "title": "Primeiro hat-trick pelo Milan", "chips": ["De pênalti", "De cabeça", "No ângulo, de longe"]},
+  {"type": "passes", "dur": 4.6, "label": "SERIE A · 2009/10", "chapter": "Nº 03", "date": "SERIE A 09/10",
+   "title": "Líder de assistências da Serie A", "sub": "Ninguém deu mais passes para gol na Itália.", "n": 6},
+  {"type": "stats", "dur": 4.2, "label": "AC MILAN · 2008–2011", "chapter": "Nº 04", "date": "2008 — 2011",
+   "stats": [["95", "jogos pelo Milan"], ["26", "gols"]], "note": "Acabado? Nem perto."},
+  {"type": "cta", "dur": 3.6, "lines": ["Manda pro amigo que acha que ele", "acabou no Barça."]}
+ ]
+}
