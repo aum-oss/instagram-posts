@@ -97,7 +97,7 @@ def scene_layer(sc):
 
 def dur(sc):
     k = sc[0]
-    if k == "hook": return 3.2
+    if k == "hook": return 1.8  # tela 1 curta (~3 s com pace 1.75), pedido do usuário em 24/11
     if k == "sms": return 4.2
     if k == "tip": return 4.0
     if k == "cta": return 3.0

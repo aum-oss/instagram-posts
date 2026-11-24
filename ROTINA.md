@@ -16,13 +16,18 @@ O usuário autorizou publicar SEM aprovação prévia. Por isso a checagem de fa
      nomes conhecidos, impacto em muita gente, Brasil primeiro, depois Europa/EUA, e IA.
      Também valem ataques a instituições muito conhecidas (FBI, governos, ministérios, grandes órgãos públicos), mesmo sem impacto direto no dia a dia — o usuário pediu esse tipo de notícia em 21/11 (ex.: invasão do banco de dados criminal do FBI). Se ainda não houver confirmação oficial, dizer "suspeita de" e citar os veículos.
      Evitar: notícias técnicas de nicho (CVEs, ferramentas de empresa, falhas que só afetam servidores) a menos que mexam com o público.
-   - Tom: sério, respeitoso e útil. Sem sensacionalismo, sem medo exagerado, sem piada com vítimas ou empresas atingidas.
-     Explicar em linguagem simples, sem jargão, e sempre terminar com o que a pessoa comum pode fazer para se proteger.
+   - MARCAS BRASILEIRAS PRIMEIRO (pedido do usuário em 24/11, com base nos números: FBI e WhatsApp tiveram 2x o alcance; Bell, Cleverbridge e LaLiga ficaram no fim):
+     priorizar empresas e marcas que o brasileiro conhece e usa (Nubank, Itaú, Bradesco, Banco do Brasil, Caixa, Santander, Inter, PicPay, Mercado Livre/Pago, iFood, Magalu, Americanas, Shopee/Amazon Brasil, Vivo, Claro, TIM, Gov.br, INSS, Receita, SUS, Pix...).
+     Marca estrangeira só se for muito usada no Brasil (WhatsApp, Instagram, Google, Apple, Netflix...) ou instituição muito conhecida (FBI etc.). Evitar empresa estrangeira que o público não reconhece.
+   - Manchete (pedido do usuário em 24/11): de IMPACTO, chamativa, curta, com o NOME DA MARCA em destaque na tela 1 (ex.: "NUBANK: DADOS VAZARAM", "ALERTA PIX", "GOLPE NO GOV.BR").
+     Limite fixo: a manchete é sempre verdadeira. Nada de inventar, aumentar número, dizer "confirmado" quando é suspeita ou prometer perigo que não existe.
+     Sem piada com vítimas. Explicar em linguagem simples, sem jargão, e sempre terminar com o que a pessoa comum pode fazer para se proteger.
    - Não repetir tema já listado em `POSTS.md`.
 2. Criar um reel no padrão do perfil com `tools/render.py` (tag `ATAQUE DO DIA`):
    cenas = hook (frase curta + destaque) → 2 a 3 itens com o que aconteceu → `tip` "O que fazer:" → `cta`.
    Salvar o JSON em `2026-11/<AAAA-MM-DD>-noticia/post.json` e gerar em `2026-11/<AAAA-MM-DD>-noticia/`.
    Rodar: `python3 tools/render.py 2026-11/<pasta>/post.json 2026-11/<pasta>`.
+   Tela 1 (gancho) é curta, ~3 s (pedido do usuário em 24/11: muita gente pulava nos 3 primeiros segundos). Máx. ~6 palavras na linha vermelha.
    Ritmo: o padrão do render.py é `pace` 1.75 (pedido do usuário em 22/11: ~30% mais rápido que o 2.25 anterior; título ~5,5s, cada item ~5,5s, "O que fazer" ~7s). Não definir `pace` no post.json nem acelerar.
 3. Datas (pedido do usuário em 21/11): sempre situar o público no tempo. No vídeo, a data do ataque/divulgação aparece já no gancho ou no item 1 (ex.: "em 14/11"); na legenda, a primeira linha diz quando aconteceu e quando foi divulgado (dia/mês).
    Legenda: 2 a 4 linhas, termina com UMA ação ("Manda pra quem precisa", "Salva pra ver depois"...), 3 a 5 hashtags. Fonte citada na legenda ("Fonte: <veículo>").
