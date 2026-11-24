@@ -23,3 +23,4 @@ Notícias do dia (manhã, 10h40 Paris) entram aqui conforme forem aprovadas.
 | 2026-11-30 | noite 23h | Kit de segurança do nômade | carousel | aprovado |
 | 2026-11-24 | série 16h30 | Ataques Reais #1: a ligação que derrubou a MGM | reel (motion graphics) | aprovado |
 | 2026-11-26 | série 16h30 | Ataques Reais #2: deepfake da Gisele Bündchen | reel (motion graphics) | aprovado |
+| 2026-11-28 | série 16h30 | Ataques Reais #3: o falso Brad Pitt (narrado) | reel (motion graphics + voz) | aprovado |

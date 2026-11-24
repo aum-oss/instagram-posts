@@ -673,5 +673,16 @@
   "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-26-serie-gisele/reel.mp4",
   "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-26-serie-gisele/cover.jpg",
   "caption_file": "2026-11/2026-11-26-serie-gisele/caption.txt"
+ },
+ {
+  "id": "2026-11-28-serie-brad",
+  "slot": "serie",
+  "publish_at": "2026-11-28T16:30+01:00",
+  "type": "reel",
+  "status": "aprovado",
+  "theme": "Série Ataques Reais #3: o falso Brad Pitt (narrado)",
+  "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-28-serie-brad/reel.mp4",
+  "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-28-serie-brad/cover.jpg",
+  "caption_file": "2026-11/2026-11-28-serie-brad/caption.txt"
  }
 ]
