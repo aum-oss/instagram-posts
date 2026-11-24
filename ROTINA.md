@@ -89,3 +89,12 @@ Regra: o gancho aparece já no primeiro quadro, curto (máx. 8 palavras na linha
 ## Palavras-chave (busca do Instagram)
 Usar no texto do vídeo E na legenda o termo que as pessoas digitam na busca:
 "golpe do Pix", "WhatsApp clonado", "vazamento de dados", "senha vazada", "golpe no Instagram", "golpe com IA", "dados vazados", "conta hackeada".
+
+## 4. Story diário: roda às 18h43 Paris (14h43 Brasília), publica sem aprovação (pedido do usuário em 24/11)
+
+Objetivo: ter story todo dia (círculo colorido na foto) e alimentar os destaques "Ataques Reais", "Golpes" e "Dicas".
+1. Em `posts.json`, pegar a entrada de HOJE (data de `publish_at`, horário de Paris) com status `publicado` e `type` `reel`. Preferir slot `serie`; senão `manha`; senão `urgente`. Se não houver nenhuma, não publicar e encerrar sem avisar.
+2. Baixar o vídeo do próprio repositório (arquivo `reel.mp4` da pasta) e medir a duração com ffprobe. Story aceita de 3 a 60 s: se passar de 59 s, cortar com `ffmpeg -t 59 -c:v libx264 -preset veryfast -crf 20 -c:a aac` e salvar `story.mp4` na mesma pasta, commit + push e esperar ~2 min o GitHub Pages.
+3. Publicar com `create_story` (só `video_url`, sem legenda).
+4. Registrar na entrada do `posts.json` o campo `story_media_id`, commit + push.
+5. Não mandar mensagem ao usuário se der certo; só avisar se falhar.
