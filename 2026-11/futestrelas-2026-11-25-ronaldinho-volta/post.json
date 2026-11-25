@@ -16,7 +16,7 @@
  "scenes": [
   {
    "type": "hook",
-   "dur": 3.4,
+   "dur": 3.0,
    "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/1.jpg",
    "photo_cx": 0.35,
    "small": "11 anos depois, aos 46,",
@@ -26,7 +26,7 @@
   },
   {
    "type": "match",
-   "dur": 5.6,
+   "dur": 3.0,
    "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/2.jpg",
    "label": "SERIE C · ITÁLIA",
    "chapter": "Nº 01",
@@ -45,7 +45,7 @@
   },
   {
    "type": "number",
-   "dur": 4.8,
+   "dur": 3.0,
    "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/3.jpg",
    "label": "ÚLTIMO JOGO OFICIAL",
    "chapter": "Nº 02",
@@ -61,7 +61,7 @@
   },
   {
    "type": "number",
-   "dur": 4.8,
+   "dur": 3.0,
    "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/4.jpg",
    "label": "A META",
    "chapter": "Nº 03",
@@ -77,11 +77,11 @@
   },
   {
    "type": "cta",
-   "dur": 3.8,
+   "dur": 3.0,
    "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/5.jpg",
    "lines": [
     "\"Se o presidente me chamar, eu volto.\"",
-    "Ele ainda faz o gol 300?"
+    "Ainda faz o gol 300?"
    ]
   }
  ]

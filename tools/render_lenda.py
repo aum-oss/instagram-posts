@@ -484,8 +484,8 @@ def score(seconds, path, hits):
 
 # ---------------------------------------------------------------- render
 # Tempo de leitura (pedido do usuário em 25/11: "muito rápido, não consigo ler").
-# Regra: 1,5 s para o olho achar o texto + 0,45 s por palavra (~2,2 palavras/s).
-READ_BASE, READ_PER_WORD = 1.5, 0.45
+# Regra: 1,2 s para o olho achar o texto + 0,38 s por palavra (~2,6 palavras/s). Alvo ~32 s por vídeo (pedido em 25/11).
+READ_BASE, READ_PER_WORD = 1.2, 0.38
 def scene_words(s):
     n = 0
     for k in ('small', 'big', 'slam', 'title', 'sub', 'note'):
