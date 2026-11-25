@@ -68,7 +68,7 @@
      38
     ]
    ],
-   "note": "Remo e Chapecoense já estão rebaixados."
+   "note": "Remo e Chapecoense já caíram."
   },
   {
    "type": "match",
@@ -80,9 +80,9 @@
    "date": "QUARTA, 20H",
    "title": "O jogo que pode tirar o Timão do Z4",
    "chips": [
-    "Hoje · Atlético-MG x Corinthians",
-    "Dom 29/11 · Corinthians x Grêmio",
-    "Qua 02/12 · Remo x Corinthians"
+    "Hoje · Atlético-MG (fora)",
+    "29/11 · Grêmio (casa)",
+    "02/12 · Remo (fora)"
    ]
   },
   {
@@ -97,9 +97,9 @@
    "number_x": 330,
    "lines": [
     "Venceu, saiu.",
-    "Com a vitória hoje, chega a 43 pontos e passa Grêmio e Mirassol."
+    "Com 43 pontos, passa Grêmio e Mirassol."
    ],
-   "note": "Os dois só voltam a jogar no domingo (29/11)."
+   "note": "Os dois só jogam no domingo."
   },
   {
    "type": "cta",

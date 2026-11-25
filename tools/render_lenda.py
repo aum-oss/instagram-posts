@@ -483,6 +483,22 @@ def score(seconds, path, hits):
         w.writeframes((out * 32767).astype(np.int16).tobytes())
 
 # ---------------------------------------------------------------- render
+# Tempo de leitura (pedido do usuário em 25/11: "muito rápido, não consigo ler").
+# Regra: 1,5 s para o olho achar o texto + 0,45 s por palavra (~2,2 palavras/s).
+READ_BASE, READ_PER_WORD = 1.5, 0.45
+def scene_words(s):
+    n = 0
+    for k in ('small', 'big', 'slam', 'title', 'sub', 'note'):
+        if s.get(k): n += len(str(s[k]).split())
+    for k in ('lines', 'chips'):
+        for x in s.get(k, []): n += len(str(x).split())
+    if s.get('score'): n += 4
+    for st in s.get('stats', []): n += len(' '.join(map(str, st)).split())
+    n += 2 * len(s.get('rows', []))
+    return n
+def read_dur(s):
+    return round(READ_BASE + READ_PER_WORD * scene_words(s), 1)
+
 def render(p, folder):
     os.makedirs(folder, exist_ok=True)
     accent = tuple(p.get('accent', [190, 22, 34]))
@@ -508,7 +524,8 @@ def render(p, folder):
             photo_bg[i] = grade(np.asarray(im, np.float32) * dark)
     logo = Image.open(p['logo']).convert('RGBA') if p.get('logo') else None
     credit_im = text_img(p['credit'], I('Medium', 22), (225, 225, 232)) if p.get('credit') else None
-    durs = [float(s.get('dur', 4.0)) for s in scenes]
+    durs = [max(float(s.get('dur', 4.0)), read_dur(s)) for s in scenes]
+    print('durações:', durs)
     starts = np.cumsum([0] + durs[:-1]); total = sum(durs)
     wav = os.path.join(folder, '_trilha.wav')
     hits = list(starts[1:]) + [s.get('slam_at', 1.45) for s in scenes[:1]]

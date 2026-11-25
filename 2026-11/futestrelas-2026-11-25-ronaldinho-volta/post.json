@@ -1,18 +1,88 @@
 {
  "id": "futestrelas-2026-11-25-ronaldinho-volta",
- "account": "futestrelas2026", "handle": "@futestrelas2026", "layout": "lenda", "type": "reel",
- "accent": [196, 24, 38], "cover_t": 1.0, "static_hook": true,
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "layout": "lenda",
+ "type": "reel",
+ "accent": [
+  196,
+  24,
+  38
+ ],
+ "cover_t": 1.0,
+ "static_hook": true,
  "logo": "tools/logo_futestrelas.png",
  "credit": "Fotos: Wikimedia Commons (créditos na legenda)",
  "scenes": [
-  {"type": "hook", "dur": 3.4, "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/1.jpg", "photo_cx": 0.35, "small": "11 anos depois, aos 46,", "big": "Ronaldinho voltou.", "slam": "O BRUXO.", "slam_at": 0},
-  {"type": "match", "dur": 5.6, "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/2.jpg", "label": "SERIE C · ITÁLIA", "chapter": "Nº 01", "date": "15.11.2026",
-   "score": ["Ravenna", "2", "0", "Forlì"], "title": "Titular, jogou o 1º tempo e participou do 1º gol",
-   "chips": ["Gol de Donati, aos 35 minutos", "O brasileiro Vinícius sofreu a falta do 2º gol", "Saiu no intervalo"]},
-  {"type": "number", "dur": 4.8, "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/3.jpg", "label": "ÚLTIMO JOGO OFICIAL", "chapter": "Nº 02", "date": "26.09.2015", "number": "11", "number_size": 600, "number_x": 330,
-   "lines": ["11 anos parado.", "O último jogo oficial tinha sido pelo Fluminense, em 2015."], "note": "Também 2 a 0. E também saiu no intervalo."},
-  {"type": "number", "dur": 4.8, "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/4.jpg", "label": "A META", "chapter": "Nº 03", "date": "RAVENNA", "number": "300", "number_size": 520, "number_x": 300,
-   "lines": ["Atrás do gol 300.", "Ele quer marcar o último gol da carreira pelo Ravenna."], "note": "Agora também é acionista e embaixador do clube."},
-  {"type": "cta", "dur": 3.8, "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/5.jpg", "lines": ["\"Se o presidente me chamar, eu volto.\"", "Ele ainda faz o gol 300?"]}
+  {
+   "type": "hook",
+   "dur": 3.4,
+   "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/1.jpg",
+   "photo_cx": 0.35,
+   "small": "11 anos depois, aos 46,",
+   "big": "Ronaldinho voltou.",
+   "slam": "O BRUXO.",
+   "slam_at": 0
+  },
+  {
+   "type": "match",
+   "dur": 5.6,
+   "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/2.jpg",
+   "label": "SERIE C · ITÁLIA",
+   "chapter": "Nº 01",
+   "date": "15.11.2026",
+   "score": [
+    "Ravenna",
+    "2",
+    "0",
+    "Forlì"
+   ],
+   "title": "Titular, participou do 1º gol",
+   "chips": [
+    "Gol de Donati, aos 35 minutos",
+    "O brasileiro Vinícius sofreu a falta do 2º"
+   ]
+  },
+  {
+   "type": "number",
+   "dur": 4.8,
+   "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/3.jpg",
+   "label": "ÚLTIMO JOGO OFICIAL",
+   "chapter": "Nº 02",
+   "date": "26.09.2015",
+   "number": "11",
+   "number_size": 600,
+   "number_x": 330,
+   "lines": [
+    "11 anos parado.",
+    "Último jogo oficial: Fluminense, 2015."
+   ],
+   "note": "Também tinha sido 2 a 0."
+  },
+  {
+   "type": "number",
+   "dur": 4.8,
+   "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/4.jpg",
+   "label": "A META",
+   "chapter": "Nº 03",
+   "date": "RAVENNA",
+   "number": "300",
+   "number_size": 520,
+   "number_x": 300,
+   "lines": [
+    "Atrás do gol 300.",
+    "Quer encerrar a carreira com ele."
+   ],
+   "note": "Agora também é sócio do clube."
+  },
+  {
+   "type": "cta",
+   "dur": 3.8,
+   "photo": "2026-11/futestrelas-2026-11-25-ronaldinho-volta/fotos/5.jpg",
+   "lines": [
+    "\"Se o presidente me chamar, eu volto.\"",
+    "Ele ainda faz o gol 300?"
+   ]
+  }
  ]
 }
