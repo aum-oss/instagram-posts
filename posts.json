@@ -721,10 +721,11 @@
     "slot": "extra",
     "publish_at": "2026-11-25T10:55+01:00",
     "type": "reel",
-    "status": "aprovado",
+    "status": "publicado",
     "theme": "Formato novo (foto real + narração): McDonald's Japão app invadido",
     "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-25-mcdonalds-japao/reel.mp4",
     "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-25-mcdonalds-japao/cover.jpg",
-    "caption_file": "2026-11/2026-11-25-mcdonalds-japao/caption.txt"
+    "caption_file": "2026-11/2026-11-25-mcdonalds-japao/caption.txt",
+    "media_id": "18055450553821563"
   }
 ]
