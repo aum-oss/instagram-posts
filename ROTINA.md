@@ -57,6 +57,14 @@ Publicar a entrada de `posts.json` com `slot: noite` e data de hoje **somente se
 Depois: status `publicado` + media id, atualizar `POSTS.md`, commit + push.
 Se não houver post aprovado para hoje, não publicar nada.
 
+## Zona segura do vídeo (pedido do usuário em 25/11)
+O Instagram cobre partes do reel enquanto ele roda: no topo, o nome do perfil e o áudio; embaixo, a legenda, o "Deixe um emoji..." e as curtidas/comentários; na aba Reels, os botões ficam na direita.
+Em todo vídeo 1080x1920 (render.py, render_fut.py, render_lenda.py ou editado fora do repo):
+- Texto, títulos, legendas queimadas e o @ só entre **y=220 e y=1400**. Nada importante acima ou abaixo disso.
+- Deixar ~180 px livres na direita (botões da aba Reels).
+- Logo/selo da marca no canto de cima também fica abaixo de y=220.
+- `tools/render.py` já respeita isso e mostra `AVISO zona segura` se uma cena passar do limite: encurtar o texto (o gancho é ~6 palavras).
+
 ## Regras gerais
 - Nunca publicar nada que não esteja aprovado.
 - Nunca apagar posts nem responder comentários automaticamente.

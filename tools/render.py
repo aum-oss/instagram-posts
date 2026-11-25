@@ -45,25 +45,29 @@ def fit(text, path, size, maxw, minsize=40):
 # ---------------- REELS ----------------
 W, H, FPS = 1080, 1920, 30
 X0, MAXW = 90, 900
+# Zona segura (pedido do usuário em 25/11): o Instagram cobre o topo (nome do perfil/áudio)
+# e a parte de baixo (legenda, "Deixe um emoji", botões). Texto só entre essas linhas.
+SAFE_TOP, SAFE_BOTTOM = 220, 1400
 
 def tag_layer(tag):
     L = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
     f = F(B, 34); tw = f.getlength(TAG_ICON + tag)
     d.rounded_rectangle([X0, 230, X0 + tw + 44, 288], 12, fill=(220, 38, 38))
     d.text((X0 + 22, 241), TAG_ICON + tag, font=f, fill=WHITE)
-    d.text((W // 2, 1640), HANDLE, font=F(MONO, 32), fill=DIM, anchor='mm')
+    d.text((W // 2, SAFE_BOTTOM - 30), HANDLE, font=F(MONO, 32), fill=DIM, anchor='mm')
     return L
 
 def scene_layer(sc):
     L = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
     kind = sc[0]
     if kind == "hook":
-        f = F(B, 70); y = 640
-        for ln in wrap(clean(sc[1]), f, MAXW):
+        f = F(B, 70); fb = F(B, 120)
+        l1, l2 = wrap(clean(sc[1]), f, MAXW), wrap(clean(sc[2]), fb, MAXW)
+        y = min(640, SAFE_BOTTOM - 90 - (90 * len(l1) + 30 + 140 * len(l2)))  # sobe se não couber
+        for ln in l1:
             d.text((X0, y), ln, font=f, fill=WHITE); y += 90
         y += 30
-        fb = F(B, 120)
-        for ln in wrap(clean(sc[2]), fb, MAXW):
+        for ln in l2:
             ff = fit(ln, B, 120, MAXW)
             d.text((X0, y), ln, font=ff, fill=RED); y += 140
     elif kind == "item":
@@ -94,6 +98,9 @@ def scene_layer(sc):
         for ln in wrap(clean(sc[1]), f, MAXW):
             d.text((W // 2, y), ln, font=f, fill=WHITE, anchor='ma'); y += 100
         d.text((W // 2, y + 40), "Siga " + HANDLE, font=F(B, 52), fill=RED, anchor='ma')
+    bb = L.getbbox()
+    if bb and (bb[1] < SAFE_TOP or bb[3] > SAFE_BOTTOM):
+        print(f"AVISO zona segura: cena {kind!r} ocupa y={bb[1]}..{bb[3]} (limite {SAFE_TOP}..{SAFE_BOTTOM}) - encurte o texto", file=sys.stderr)
     return L
 
 def dur(sc):
