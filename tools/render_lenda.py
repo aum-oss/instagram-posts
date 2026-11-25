@@ -495,6 +495,19 @@ def render(p, folder):
     darken = Image.new('RGBA', (W, H), INK + (0,)); darken.putalpha(shade)
     grains = grain_frames()
     scenes = p['scenes']
+    # fotos reais por cena (opcional): {"photo": "caminho", "photo_cx": 0.5}
+    photo_bg = {}
+    for i, sc_ in enumerate(scenes):
+        if sc_.get('photo'):
+            im = Image.open(sc_['photo']).convert('RGB')
+            cxp = sc_.get('photo_cx', .5); hh = im.height; ww = hh * OW / OH
+            if ww > im.width: ww = im.width; hh = ww * OH / OW
+            x0 = max(0, min(im.width - ww, cxp * im.width - ww / 2)); y0 = (im.height - hh) / 2
+            im = im.crop((int(x0), int(y0), int(x0 + ww), int(y0 + hh))).resize((OW, OH), Image.LANCZOS)
+            dark = sc_.get('photo_dark', .55 if i else .8)
+            photo_bg[i] = grade(np.asarray(im, np.float32) * dark)
+    logo = Image.open(p['logo']).convert('RGBA') if p.get('logo') else None
+    credit_im = text_img(p['credit'], I('Medium', 22), (225, 225, 232)) if p.get('credit') else None
     durs = [float(s.get('dur', 4.0)) for s in scenes]
     starts = np.cumsum([0] + durs[:-1]); total = sum(durs)
     wav = os.path.join(folder, '_trilha.wav')
@@ -517,10 +530,14 @@ def render(p, folder):
         # câmera: deslize lento contínuo + leve "respiro"
         cx = (OW - W) * (.5 + .45 * math.sin(T * .12 + 1))
         cy = (OH - H) * (.5 + .45 * math.cos(T * .09))
-        frame = bg.crop((int(cx), int(cy), int(cx) + W, int(cy) + H)).convert('RGBA')
+        src = photo_bg.get(k, bg)
+        if k == 0 and p.get('static_hook'): cx, cy = (OW - W) / 2, (OH - H) / 2
+        frame = src.crop((int(cx), int(cy), int(cx) + W, int(cy) + H)).convert('RGBA')
         frame.alpha_composite(darken)
         layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))
-        SCENES[scenes[k]['type']](layer, t, scenes[k], ctx)
+        tt = 10.0 if (k == 0 and p.get('static_hook')) else t
+        SCENES[scenes[k]['type']](layer, tt, scenes[k], ctx)
+        if k == 0 and credit_im is not None: put(layer, credit_im, W - 40 - credit_im.width, H - 60)
         if scenes[k].get('label'): side_label(layer, scenes[k]['label'], ease(t / .6))
         # saída da cena: fade + leve subida
         out_p = ease((t - (durs[k] - .3)) / .3) if k < len(scenes) - 1 else 0
@@ -528,6 +545,7 @@ def render(p, folder):
             a = layer.getchannel('A').point(lambda v: int(v * (1 - out_p)))
             layer.putalpha(a)
         frame.alpha_composite(layer, (0, int(-20 * out_p)))
+        if logo is not None: frame.alpha_composite(logo, (W - logo.width - 40, 40))
         # flash suave na virada
         if k > 0 and t < .18:
             fl = Image.new('RGBA', (W, H), accent + (int(70 * (1 - t / .18)),)); frame.alpha_composite(fl)

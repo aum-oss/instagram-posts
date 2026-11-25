@@ -1,0 +1,114 @@
+{
+ "id": "futestrelas-2026-11-25-corinthians-hoje",
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "layout": "lenda",
+ "type": "reel",
+ "accent": [
+  205,
+  26,
+  38
+ ],
+ "cover_t": 1.0,
+ "static_hook": true,
+ "logo": "tools/logo_futestrelas.png",
+ "credit": "Fotos: Wikimedia Commons (créditos na legenda)",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.4,
+   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/1.jpg",
+   "photo_cx": 0.45,
+   "small": "Hoje, às 20h, o Corinthians",
+   "big": "joga a vida.",
+   "slam": "VALE TUDO.",
+   "slam_at": 0
+  },
+  {
+   "type": "table",
+   "dur": 5.6,
+   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/2.jpg",
+   "label": "BRASILEIRÃO 2026",
+   "chapter": "Nº 01",
+   "date": "APÓS A 36ª RODADA",
+   "title": "A briga lá embaixo",
+   "highlight": "Corinthians",
+   "cut_after": 3,
+   "cut_label": "ZONA DE REBAIXAMENTO",
+   "rows": [
+    [
+     13,
+     "Vitória",
+     44
+    ],
+    [
+     14,
+     "Botafogo",
+     43
+    ],
+    [
+     15,
+     "Grêmio",
+     41
+    ],
+    [
+     16,
+     "Mirassol",
+     41
+    ],
+    [
+     17,
+     "Corinthians",
+     40,
+     "1 jogo a menos"
+    ],
+    [
+     18,
+     "Internacional",
+     38
+    ]
+   ],
+   "note": "Remo e Chapecoense já estão rebaixados."
+  },
+  {
+   "type": "match",
+   "dur": 5.0,
+   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/3.jpg",
+   "photo_cx": 0.4,
+   "label": "HOJE · ARENA MRV",
+   "chapter": "Nº 02",
+   "date": "QUARTA, 20H",
+   "title": "O jogo que pode tirar o Timão do Z4",
+   "chips": [
+    "Hoje · Atlético-MG x Corinthians",
+    "Dom 29/11 · Corinthians x Grêmio",
+    "Qua 02/12 · Remo x Corinthians"
+   ]
+  },
+  {
+   "type": "number",
+   "dur": 4.6,
+   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/4.jpg",
+   "label": "SE VENCER",
+   "chapter": "Nº 03",
+   "date": "QUARTA, 20H",
+   "number": "43",
+   "number_size": 600,
+   "number_x": 330,
+   "lines": [
+    "Venceu, saiu.",
+    "Com a vitória hoje, chega a 43 pontos e passa Grêmio e Mirassol."
+   ],
+   "note": "Os dois só voltam a jogar no domingo (29/11)."
+  },
+  {
+   "type": "cta",
+   "dur": 3.6,
+   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/5.jpg",
+   "lines": [
+    "Corinthians escapa ou cai?",
+    "Deixa seu palpite."
+   ]
+  }
+ ]
+}
