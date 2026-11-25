@@ -1,0 +1,13 @@
+{
+ "id": "2026-11-25-noticia",
+ "type": "reel",
+ "tag": "ATAQUE DO DIA",
+ "scenes": [
+  ["hook", "Divulgado em 24/11, nos EUA", "CIA: SISTEMA INVADIDO POR HACKERS"],
+  ["item", "1", "O que se sabe", "Um sistema não secreto da CIA foi invadido, segundo fontes ouvidas pela AP e pelo New York Times"],
+  ["item", "2", "O que foi atingido", "Um sistema que analisa informações públicas. As fontes dizem que dados secretos não foram afetados"],
+  ["item", "3", "Ainda sem resposta", "Quem fez o ataque e o que foi levado. A CIA não comentou o caso"],
+  ["tip", "O que fazer:", ["Se até a CIA é alvo,", "ninguém está imune.", "Ative a verificação", "em duas etapas hoje."]],
+  ["cta", "Manda pra quem ainda não ativou"]
+ ]
+}
