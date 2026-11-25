@@ -704,7 +704,7 @@
   "slot": "manha",
   "publish_at": "2026-11-25T10:30+01:00",
   "type": "reel",
-  "status": "aguardando publicação",
+  "status": "publicado",
   "theme": "Sistema não secreto da CIA invadido por hackers, segundo fontes (AP, Nextgov, NYT)",
   "caption": "Divulgado ontem, 24/11 (a data do ataque não foi informada): hackers invadiram um sistema não secreto da CIA usado para analisar informações públicas, segundo fontes ouvidas pela AP e pelo New York Times.\nAs fontes dizem que dados secretos não foram afetados e que o problema foi resolvido. Ainda não se sabe quem atacou nem o que foi levado, e a CIA não comentou.\nFonte: AP (via SecurityWeek) e Nextgov\n\nSe até a CIA é alvo, ninguém está imune: ative hoje a verificação em duas etapas no WhatsApp, Instagram e e-mail 🔐\n\n#ataquehacker #segurancadigital #contahackeada #ciberseguranca",
   "sources": [
@@ -713,6 +713,7 @@
    "https://federalnewsnetwork.com/cybersecurity/2026/11/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/"
   ],
   "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-25-noticia/reel.mp4",
-  "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-25-noticia/cover.jpg"
+  "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-25-noticia/cover.jpg",
+  "media_id": "17979445763936753"
  }
 ]
