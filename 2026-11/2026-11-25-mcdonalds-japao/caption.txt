@@ -1,0 +1,18 @@
+Hackers invadiram o app oficial do McDonald's no Japão. Não levaram nome nem cartão: levaram onde os clientes estavam e o que compraram. 🍔📍
+
+O que aconteceu:
+📅 Em 20/11, o McDonald's do Japão confirmou o acesso não autorizado ao banco de dados do app.
+📍 Foram atingidos o histórico de compras, a localização do celular, o endereço IP e um código interno de cliente.
+❓ A empresa ainda não disse quantas pessoas foram atingidas nem se os dados saíram da empresa.
+
+Por que isso importa pra você: com sua rotina e seus hábitos, um golpista monta uma mensagem que parece real ("seu pedido de ontem às 19h deu erro...").
+
+✅ Vá em Configurações > Localização e deixe os apps em "Durante o uso".
+✅ Desconfie de mensagem de reembolso com link, mesmo que ela saiba o que você pediu.
+
+Manda pra quem vive pedindo delivery 📲
+
+Fonte: comunicado do McDonald's Japão, CNET Japan e ASCII
+Foto: N509FZ, CC BY-SA 4.0, via Wikimedia Commons
+
+#mcdonalds #vazamentodedados #golpe #segurancadigital #privacidade
