@@ -17,7 +17,7 @@ Notícias do dia (manhã, 10h40 Paris) entram aqui conforme forem aprovadas.
 | 2026-11-24 | manhã 10h30 | Bell (Canadá) confirma ataque "agêntico" com dados de clientes de 5 marcas (The Canadian Press, BetaKit) | reel | publicado (media id 18103490519541195) |
 | 2026-11-24 | noite 23h | Golpe da voz clonada por IA | reel | publicado (media id 18120131465588586) |
 | 2026-11-25 | manhã 10h30 | Sistema não secreto da CIA invadido por hackers, segundo fontes (AP, Nextgov) | reel | publicado (media id 17979445763936753) |
-| 2026-11-25 | noite 23h | Checklist de segurança do celular | carousel | aprovado |
+| 2026-11-25 | noite 23h | Checklist de segurança do celular | carousel | publicado (media id 17914664556571641) |
 | 2026-11-26 | noite 23h | Sua senha vazou? | reel | aprovado |
 | 2026-11-27 | noite 23h | Entrevista falsa da Binance | reel (trial) | aprovado |
 | 2026-11-29 | noite 23h | Ative a verificação em duas etapas | reel | aprovado |

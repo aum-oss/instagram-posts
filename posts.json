@@ -300,7 +300,7 @@
     "publish_at": "2026-11-25T23:00+01:00",
     "type": "carousel",
     "caption": "Checklist rápido: quantos desses 6 itens o seu celular já tem? Salva pra conferir com calma.\n\nManda pra quem precisa 📲\n\n#segurancadigital #celular #dicas #ciberseguranca",
-    "status": "aprovado",
+    "status": "publicado",
     "source": {
       "id": "d05-checklist-celular",
       "date": "2026-11-25",
@@ -383,7 +383,8 @@
       "https://aum-oss.github.io/instagram-posts/2026-11/d05-checklist-celular/slide06.jpg",
       "https://aum-oss.github.io/instagram-posts/2026-11/d05-checklist-celular/slide07.jpg",
       "https://aum-oss.github.io/instagram-posts/2026-11/d05-checklist-celular/slide08.jpg"
-    ]
+    ],
+    "media_id": "17914664556571641"
   },
   {
     "id": "d06-senha-vazou",
