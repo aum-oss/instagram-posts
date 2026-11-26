@@ -1,0 +1,44 @@
+{
+ "id": "2026-11-26-noticia",
+ "type": "reel",
+ "tag": "ATAQUE DO DIA",
+ "scenes": [
+  [
+   "hook",
+   "Em 23/11, no Pará",
+   "BANPARÁ: ATAQUE HACKER TRAVA O PIX"
+  ],
+  [
+   "item",
+   "1",
+   "O que aconteceu",
+   "Hackers fizeram cerca de 600 Pix de uma conta do governo do Pará, segundo depoimento à polícia"
+  ],
+  [
+   "item",
+   "2",
+   "Quanto saiu",
+   "Cerca de R$ 8,5 milhões. O banco diz que bloqueou os Pix e recuperou o dinheiro"
+  ],
+  [
+   "item",
+   "3",
+   "E os clientes?",
+   "O banco suspendeu o Pix por precaução e diz que contas de clientes não foram bloqueadas"
+  ],
+  [
+   "tip",
+   "O que fazer:",
+   [
+    "Banco fora do ar atrai",
+    "golpe de falsa central.",
+    "Ninguém do banco pede",
+    "senha: use só o app."
+   ]
+  ],
+  [
+   "cta",
+   "Manda pra quem é cliente do Banpará"
+  ]
+ ]
+}

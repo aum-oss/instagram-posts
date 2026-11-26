@@ -729,5 +729,21 @@
     "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-25-mcdonalds-japao/cover.jpg",
     "caption_file": "2026-11/2026-11-25-mcdonalds-japao/caption.txt",
     "media_id": "18055450553821563"
+  },
+  {
+    "id": "2026-11-26-noticia",
+    "slot": "manha",
+    "publish_at": "2026-11-26T10:30+01:00",
+    "type": "reel",
+    "status": "aguardando publicação",
+    "theme": "Banpará confirma ataque hacker e suspende Pix; ~R$ 8,5 mi em Pix de conta do governo do Pará (Diário do Pará, DOL)",
+    "caption": "Aconteceu na noite de 23/11 e foi confirmado ontem, 25/11: o Banpará (Banco do Estado do Pará) sofreu um ataque hacker e suspendeu o Pix por precaução. Cerca de 600 Pix (uns R$ 8,5 milhões, segundo depoimento à polícia) saíram de uma conta do governo do Pará; o banco diz que bloqueou as transferências e recuperou os valores, e a Polícia Civil investiga.\nFonte: Diário do Pará e DOL\n\nGolpista adora banco fora do ar para ligar como \"central de segurança\": ninguém do banco pede senha ou código. Manda pra quem é cliente do Banpará 🔐\n\n#golpedopix #ataquehacker #banpara #segurancadigital #pix",
+    "sources": [
+      "https://diariodopara.com.br/para/banpara-confirma-ataque-cibernetico-suspende-pix-e-aciona-policia-civil/",
+      "https://dol.com.br/noticias/para/969379/banpara-esclarece-ataque-cibernetico-e-garante-retomada-do-pix",
+      "https://br.jetss.com/2026/11/25/banpara-confirma-ataque-cibernetico-e-interrompe-operacoes-de-pix-apos-suspeitas/"
+    ],
+    "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-26-noticia/reel.mp4",
+    "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/2026-11-26-noticia/cover.jpg"
   }
 ]
