@@ -1,0 +1,17 @@
+{
+ "id": "futestrelas-2026-11-26-palmeiras-final",
+ "account": "futestrelas2026", "handle": "@futestrelas2026", "layout": "lenda", "type": "reel",
+ "accent": [40, 170, 90], "cover_t": 1.0, "static_hook": true,
+ "logo": "tools/logo_futestrelas.png",
+ "credit": "Fotos: Wikimedia Commons (créditos na legenda)",
+ "scenes": [
+  {"type": "hook", "dur": 3.0, "photo": "2026-11/futestrelas-2026-11-26-palmeiras-final/fotos/1.jpg", "photo_cx": 0.4, "names": "PALMEIRAS x ESTUDIANTES", "small": "Em 1968, eles tiraram a taça do Palmeiras.", "big": "Sábado, a revanche.", "slam": "58 ANOS.", "slam_at": 0},
+  {"type": "match", "dur": 3.0, "photo": "2026-11/futestrelas-2026-11-26-palmeiras-final/fotos/2.jpg", "label": "ESTÁDIO CENTENÁRIO", "chapter": "Nº 01", "date": "MONTEVIDÉU · 2021",
+   "score": ["Palmeiras", "2", "1", "Flamengo"], "title": "Mesmo estádio. Deu Palmeiras.", "chips": ["O tri veio na prorrogação"]},
+  {"type": "match", "dur": 3.0, "photo": "2026-11/futestrelas-2026-11-26-palmeiras-final/fotos/3.jpg", "label": "O ADVERSÁRIO", "chapter": "Nº 02", "date": "ESTUDIANTES",
+   "title": "O carrasco dos brasileiros", "chips": ["Quartas: eliminou o Corinthians", "Semi: eliminou o Flamengo, nos pênaltis", "Final: Palmeiras?"]},
+  {"type": "number", "dur": 3.0, "photo": "2026-11/futestrelas-2026-11-26-palmeiras-final/fotos/4.jpg", "label": "O TETRA", "chapter": "Nº 03", "date": "SÁBADO", "number": "4", "number_size": 700, "number_x": 380,
+   "lines": ["Vale o tetra.", "Só o Flamengo é tetra entre os brasileiros."], "note": "O Estudiantes também tem 4 e busca o 5º."},
+  {"type": "cta", "dur": 3.0, "photo": "2026-11/futestrelas-2026-11-26-palmeiras-final/fotos/5.jpg", "lines": ["Sábado, 17h, no Centenário.", "Tetra ou penta argentino?"]}
+ ]
+}

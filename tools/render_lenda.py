@@ -493,7 +493,7 @@ def score(seconds, path, hits):
 READ_BASE, READ_PER_WORD = 1.2, 0.38
 def scene_words(s):
     n = 0
-    for k in ('small', 'big', 'slam', 'title', 'sub', 'note'):
+    for k in ('names', 'small', 'big', 'slam', 'title', 'sub', 'note'):
         if s.get(k): n += len(str(s[k]).split())
     for k in ('lines', 'chips'):
         for x in s.get(k, []): n += len(str(x).split())
