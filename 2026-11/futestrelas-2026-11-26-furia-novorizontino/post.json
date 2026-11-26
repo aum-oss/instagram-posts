@@ -1,0 +1,80 @@
+{
+ "id": "futestrelas-2026-11-26-furia-novorizontino",
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "layout": "lenda",
+ "type": "reel",
+ "accent": [
+  245,
+  200,
+  40
+ ],
+ "cover_t": 1.0,
+ "static_hook": true,
+ "logo": "tools/logo_futestrelas.png",
+ "credit": "Fotos: Wikimedia Commons (créditos na legenda)",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-furia-novorizontino/fotos/1.jpg",
+   "photo_cx": 0.5,
+   "names": "UM TIME DE GAMES NA SÉRIE A.",
+   "small": "O Novorizontino agora é",
+   "big": "FURIA Novorizontino.",
+   "slam": "2027.",
+   "slam_at": 0
+  },
+  {
+   "type": "match",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-furia-novorizontino/fotos/2.jpg",
+   "label": "O CLUBE",
+   "chapter": "Nº 01",
+   "date": "SÉRIE B 2026",
+   "title": "Campeão da Série B pela 1ª vez",
+   "chips": [
+    "Sobe para a Série A em 2027",
+    "Casa: Novo Horizonte, interior de SP"
+   ]
+  },
+  {
+   "type": "match",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-furia-novorizontino/fotos/3.jpg",
+   "label": "A FURIA",
+   "chapter": "Nº 02",
+   "date": "E-SPORTS",
+   "title": "Do videogame para o Brasileirão",
+   "chips": [
+    "A gestão do futebol continua a mesma",
+    "Ligada a Cris Guedes, amigo de Neymar"
+   ]
+  },
+  {
+   "type": "number",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-furia-novorizontino/fotos/4.jpg",
+   "label": "A ESTREIA",
+   "chapter": "Nº 03",
+   "date": "JANEIRO",
+   "number": "2027",
+   "number_size": 380,
+   "number_x": 120,
+   "lines": [
+    "No Paulistão.",
+    "Estreia com o nome novo em janeiro."
+   ],
+   "note": "Quem deu a notícia primeiro? Craque Neto."
+  },
+  {
+   "type": "cta",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-furia-novorizontino/fotos/5.jpg",
+   "lines": [
+    "Time de e-sports no futebol:",
+    "futuro ou marketing?"
+   ]
+  }
+ ]
+}
