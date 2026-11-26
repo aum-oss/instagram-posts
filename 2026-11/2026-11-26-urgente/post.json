@@ -1,0 +1,44 @@
+{
+ "id": "2026-11-26-urgente",
+ "type": "reel",
+ "tag": "ATAQUE DO DIA",
+ "scenes": [
+  [
+   "hook",
+   "Hoje, 26/11:",
+   "FIFA CONFIRMA ATAQUE HACKER"
+  ],
+  [
+   "item",
+   "1",
+   "Dados pessoais acessados",
+   "A FIFA confirmou acesso a um conjunto limitado de dados pessoais e comerciais"
+  ],
+  [
+   "item",
+   "2",
+   "Polícia já foi acionada",
+   "A FIFA não disse quantas pessoas nem quais dados foram afetados"
+  ],
+  [
+   "item",
+   "3",
+   "Fingiram ser funcionários",
+   "É o que apurou a BBC. A FIFA não detalhou como foi o ataque"
+  ],
+  [
+   "tip",
+   "O que fazer:",
+   [
+    "Desconfie de mensagem",
+    "\"da FIFA\" sobre",
+    "ingressos ou prêmios.",
+    "Entre só pelo site oficial."
+   ]
+  ],
+  [
+   "cta",
+   "Manda pra quem tem conta na FIFA"
+  ]
+ ]
+}
