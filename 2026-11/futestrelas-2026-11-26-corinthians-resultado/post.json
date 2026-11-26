@@ -17,8 +17,8 @@
   {
    "type": "hook",
    "dur": 3.0,
-   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/1.jpg",
-   "photo_cx": 0.45,
+   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/3.jpg",
+   "photo_cx": 0.5,
    "small": "Atlético-MG x Corinthians",
    "big": "1 a 1.",
    "slam": "ESCAPOU!",
@@ -27,8 +27,8 @@
   {
    "type": "match",
    "dur": 3.0,
-   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/3.jpg",
-   "photo_cx": 0.4,
+   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/2.jpg",
+   "photo_cx": 0.75,
    "label": "36ª RODADA · ARENA MRV",
    "chapter": "Nº 01",
    "date": "QUARTA, 25/11",
@@ -48,7 +48,7 @@
   {
    "type": "table",
    "dur": 3.0,
-   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/2.jpg",
+   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/5.jpg",
    "label": "BRASILEIRÃO 2026",
    "chapter": "Nº 02",
    "date": "APÓS A 36ª RODADA",
@@ -88,7 +88,8 @@
      38
     ]
    ],
-   "note": "Remo e Chapecoense já caíram."
+   "note": "Remo e Chapecoense já caíram.",
+   "photo_cx": 0.6
   },
   {
    "type": "number",
@@ -109,11 +110,12 @@
   {
    "type": "cta",
    "dur": 3.0,
-   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/5.jpg",
+   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/2.jpg",
    "lines": [
     "O Timão escapa de vez?",
     "Comenta seu palpite."
-   ]
+   ],
+   "photo_cx": 0.3
   }
  ]
 }
