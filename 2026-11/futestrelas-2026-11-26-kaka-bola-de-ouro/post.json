@@ -1,0 +1,92 @@
+{
+ "id": "futestrelas-2026-11-26-kaka-bola-de-ouro",
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "layout": "lenda",
+ "type": "reel",
+ "accent": [
+  196,
+  24,
+  38
+ ],
+ "cover_t": 1.0,
+ "static_hook": true,
+ "logo": "tools/logo_futestrelas.png",
+ "credit": "Fotos: Wikimedia Commons (créditos na legenda)",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-kaka-bola-de-ouro/fotos/1.jpg",
+   "photo_cx": 0.5,
+   "small": "Você acha que o último brasileiro",
+   "big": "Bola de Ouro foi o Ronaldinho?",
+   "slam": "ERRADO.",
+   "slam_at": 0
+  },
+  {
+   "type": "number",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-kaka-bola-de-ouro/fotos/2.jpg",
+   "photo_cx": 0.5,
+   "label": "AC MILAN · 2007",
+   "chapter": "Nº 01",
+   "date": "BOLA DE OURO",
+   "number": "2007",
+   "number_size": 320,
+   "number_x": 84,
+   "lines": [
+    "Foi o Kaká.",
+    "Pelo Milan, levou a Bola de Ouro e o prêmio de melhor do mundo da FIFA."
+   ],
+   "note": "O Ronaldinho ganhou antes, em 2005."
+  },
+  {
+   "type": "stats",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-kaka-bola-de-ouro/fotos/3.jpg",
+   "photo_cx": 0.62,
+   "label": "CHAMPIONS 2006/07",
+   "chapter": "Nº 02",
+   "date": "TEMPORADA 06/07",
+   "stats": [
+    [
+     "10",
+     "gols na Champions"
+    ],
+    [
+     "1",
+     "título europeu com o Milan"
+    ]
+   ],
+   "note": "Foi o artilheiro do torneio."
+  },
+  {
+   "type": "number",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-kaka-bola-de-ouro/fotos/4.jpg",
+   "photo_cx": 0.5,
+   "label": "BOLA DE OURO 2026",
+   "chapter": "Nº 03",
+   "date": "OUTUBRO 2026",
+   "number": "19",
+   "number_size": 600,
+   "number_x": 330,
+   "lines": [
+    "Anos de jejum.",
+    "Nenhum brasileiro ganhou desde 2007."
+   ],
+   "note": "Em 2026 deu Harry Kane. Vini Jr. foi o 17º."
+  },
+  {
+   "type": "cta",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-kaka-bola-de-ouro/fotos/5.jpg",
+   "photo_cx": 0.35,
+   "lines": [
+    "Quem vai ser o próximo brasileiro?",
+    "Comenta aí."
+   ]
+  }
+ ]
+}
