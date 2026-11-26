@@ -28,3 +28,4 @@ Notícias do dia (manhã, 10h40 Paris) entram aqui conforme forem aprovadas.
 | 2026-11-28 | série 16h30 | Ataques Reais #3: o falso Brad Pitt (narrado) | reel (motion graphics + voz) | aprovado |
 | 2026-12-01 | série 16h30 | Ataques Reais #4: fábricas de golpes (narrado, voz Adrian) | reel (motion graphics + voz) | aprovado |
 | 2026-11-25 | extra | McDonald's Japão: app invadido (formato novo, foto real) | reel (foto + voz) | publicado (18055450553821563) |
+| 2026-11-26 | extra 12h30 Brasília | FIFA confirma ataque hacker com acesso a dados pessoais e comerciais (Reuters, SBT News) | reel | publicado (media id 18117398360036677) |
