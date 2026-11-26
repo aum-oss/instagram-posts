@@ -106,3 +106,10 @@ Objetivo: ter story todo dia (círculo colorido na foto) e alimentar os destaque
 3. Publicar com `create_story` (só `video_url`, sem legenda).
 4. Registrar na entrada do `posts.json` o campo `story_media_id`, commit + push.
 5. Não mandar mensagem ao usuário se der certo; só avisar se falhar.
+
+## Futestrelas (@futestrelas2026): fotos
+
+Pedido do usuário em 26/11/2026: **não repetir imagens**. Cada vídeo novo do Futestrelas usa fotos diferentes das já usadas em posts anteriores, principalmente na tela de abertura (que vira a capa no feed).
+- Antes de escolher as fotos, veja o campo "photo" dos post.json em `2026-11/futestrelas-*` e não reutilize nenhuma.
+- Baixe fotos novas de licença livre (Wikimedia Commons), nítidas, do estádio/time certo e sem placar de outro jogo no telão; anote os créditos na legenda.
+- Já usadas: `futestrelas-2026-11-25-corinthians-hoje/fotos/1-5.jpg`, `futestrelas-2026-11-25-ronaldinho-volta/fotos/1-5.jpg`.
