@@ -392,7 +392,7 @@
     "publish_at": "2026-11-26T23:00+01:00",
     "type": "reel",
     "caption": "Em 30 segundos você descobre se seu e-mail apareceu em algum vazamento. Se apareceu, troque a senha e não repita em outros sites.\n\nSalva pra ver depois 🔖\n\n#senha #vazamento #segurancadigital #privacidade",
-    "status": "aprovado",
+    "status": "publicado",
     "source": {
       "id": "d06-senha-vazou",
       "date": "2026-11-26",
@@ -441,7 +441,8 @@
     },
     "video_url": "https://aum-oss.github.io/instagram-posts/2026-11/d06-senha-vazou/reel.mp4",
     "cover_url": "https://aum-oss.github.io/instagram-posts/2026-11/d06-senha-vazou/cover.jpg",
-    "trial": false
+    "trial": false,
+    "media_id": "17960746782268064"
   },
   {
     "id": "d07-entrevista-falsa",
