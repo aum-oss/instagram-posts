@@ -112,6 +112,18 @@
     "Domingo tem revanche?",
     "Crava o placar."
    ]
+  },
+  {
+   "type": "cta",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-revanche-gremio/fotos/5.jpg",
+   "photo_cx": 0.75,
+   "photo_dark": 0.4,
+   "follow": true,
+   "lines": [
+    "Curtiu? Tem craques, lendas e bastidores todo dia.",
+    "Segue aí!"
+   ]
   }
  ]
 }

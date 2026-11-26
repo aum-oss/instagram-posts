@@ -87,6 +87,18 @@
     "Quem vai ser o próximo brasileiro?",
     "Comenta aí."
    ]
+  },
+  {
+   "type": "cta",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-kaka-bola-de-ouro/fotos/5.jpg",
+   "photo_cx": 0.35,
+   "photo_dark": 0.4,
+   "follow": true,
+   "lines": [
+    "Curtiu? Tem craques, lendas e bastidores todo dia.",
+    "Segue aí!"
+   ]
   }
  ]
 }
