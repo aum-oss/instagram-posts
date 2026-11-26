@@ -1,0 +1,120 @@
+{
+ "id": "futestrelas-2026-11-26-real-madrid-100",
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "layout": "lenda",
+ "type": "reel",
+ "accent": [
+  205,
+  26,
+  38
+ ],
+ "cover_t": 1.0,
+ "static_hook": true,
+ "logo": "tools/logo_futestrelas.png",
+ "credit": "Fotos: Wikimedia Commons (créditos na legenda)",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-real-madrid-100/fotos/1.jpg",
+   "photo_cx": 0.5,
+   "small": "Real Madrid na Champions:",
+   "big": "5 jogos, 5 vitórias.",
+   "slam": "100%.",
+   "slam_at": 0
+  },
+  {
+   "type": "match",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-real-madrid-100/fotos/2.jpg",
+   "photo_cx": 0.5,
+   "label": "CHAMPIONS · 5ª RODADA",
+   "chapter": "Nº 01",
+   "date": "24.11.2026",
+   "score": [
+    "Real Madrid",
+    "5",
+    "1",
+    "PSV"
+   ],
+   "title": "Goleada no Bernabéu",
+   "chips": [
+    "Mbappé fez 2 gols",
+    "Valverde e Bellingham marcaram",
+    "Vini Jr. fechou aos 42 do 2º tempo"
+   ]
+  },
+  {
+   "type": "table",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-real-madrid-100/fotos/3.jpg",
+   "photo_cx": 0.5,
+   "label": "CHAMPIONS 2026/27",
+   "chapter": "Nº 02",
+   "date": "APÓS A 5ª RODADA",
+   "title": "Sozinho no topo",
+   "highlight": "Real Madrid",
+   "rows": [
+    [
+     1,
+     "Real Madrid",
+     15
+    ],
+    [
+     2,
+     "PSG",
+     13
+    ],
+    [
+     3,
+     "Como",
+     12
+    ],
+    [
+     4,
+     "Barcelona",
+     12
+    ],
+    [
+     5,
+     "Liverpool",
+     12
+    ],
+    [
+     6,
+     "Betis",
+     12
+    ]
+   ],
+   "note": "Os 8 primeiros vão direto às oitavas."
+  },
+  {
+   "type": "number",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-real-madrid-100/fotos/4.jpg",
+   "photo_cx": 0.3,
+   "label": "MBAPPÉ",
+   "chapter": "Nº 03",
+   "date": "CHAMPIONS",
+   "number": "7",
+   "number_size": 600,
+   "number_x": 380,
+   "lines": [
+    "Jogos seguidos.",
+    "Mbappé marcou em 7 jogos seguidos de Champions."
+   ],
+   "note": "Próximo: Arsenal x Real Madrid, 09/12."
+  },
+  {
+   "type": "cta",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-real-madrid-100/fotos/5.jpg",
+   "photo_cx": 0.75,
+   "lines": [
+    "O Real é o favorito ao título?",
+    "Comenta aí."
+   ]
+  }
+ ]
+}
