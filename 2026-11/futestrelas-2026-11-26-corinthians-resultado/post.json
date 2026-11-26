@@ -17,8 +17,8 @@
   {
    "type": "hook",
    "dur": 3.0,
-   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/3.jpg",
-   "photo_cx": 0.5,
+   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/2.jpg",
+   "photo_cx": 0.78,
    "small": "Atlético-MG x Corinthians",
    "big": "1 a 1.",
    "slam": "ESCAPOU!",
@@ -27,8 +27,8 @@
   {
    "type": "match",
    "dur": 3.0,
-   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/2.jpg",
-   "photo_cx": 0.75,
+   "photo": "2026-11/futestrelas-2026-11-25-corinthians-hoje/fotos/3.jpg",
+   "photo_cx": 0.4,
    "label": "36ª RODADA · ARENA MRV",
    "chapter": "Nº 01",
    "date": "QUARTA, 25/11",
@@ -115,7 +115,7 @@
     "O Timão escapa de vez?",
     "Comenta seu palpite."
    ],
-   "photo_cx": 0.3
+   "photo_cx": 0.2
   }
  ]
 }
