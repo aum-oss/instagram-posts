@@ -1,0 +1,117 @@
+{
+ "id": "futestrelas-2026-11-26-revanche-gremio",
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "layout": "lenda",
+ "type": "reel",
+ "accent": [
+  205,
+  26,
+  38
+ ],
+ "cover_t": 1.0,
+ "static_hook": true,
+ "logo": "tools/logo_futestrelas.png",
+ "credit": "Fotos: Wikimedia Commons (créditos na legenda)",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-revanche-gremio/fotos/1.jpg",
+   "photo_cx": 0.5,
+   "small": "Em 2007, o Corinthians caiu",
+   "big": "num 1 a 1 com o Grêmio.",
+   "slam": "TROCO?",
+   "slam_at": 0
+  },
+  {
+   "type": "match",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-revanche-gremio/fotos/2.jpg",
+   "photo_cx": 0.3,
+   "label": "BRASILEIRÃO 2007 · ÚLTIMA RODADA",
+   "chapter": "Nº 01",
+   "date": "02.12.2007",
+   "score": [
+    "Grêmio",
+    "1",
+    "1",
+    "Corinthians"
+   ],
+   "title": "O dia da queda do Timão",
+   "chips": [
+    "Jonas abriu para o Grêmio",
+    "Clodoaldo empatou",
+    "Goiás venceu e se salvou"
+   ]
+  },
+  {
+   "type": "number",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-revanche-gremio/fotos/3.jpg",
+   "photo_cx": 0.75,
+   "label": "BRASILEIRÃO 2007",
+   "chapter": "Nº 02",
+   "date": "TABELA FINAL",
+   "number": "44",
+   "number_size": 600,
+   "number_x": 330,
+   "lines": [
+    "17º lugar.",
+    "O Goiás escapou com 45, um ponto a mais."
+   ],
+   "note": "Foi a primeira queda da história do Corinthians."
+  },
+  {
+   "type": "table",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-revanche-gremio/fotos/4.jpg",
+   "photo_cx": 0.6,
+   "label": "BRASILEIRÃO 2026",
+   "chapter": "Nº 03",
+   "date": "APÓS A 36ª RODADA",
+   "title": "19 anos depois, empatados",
+   "highlight": "Corinthians",
+   "cut_after": 3,
+   "cut_label": "ZONA DE REBAIXAMENTO",
+   "rows": [
+    [
+     14,
+     "Botafogo",
+     43
+    ],
+    [
+     15,
+     "Corinthians",
+     41
+    ],
+    [
+     16,
+     "Grêmio",
+     41
+    ],
+    [
+     17,
+     "Mirassol",
+     41
+    ],
+    [
+     18,
+     "Internacional",
+     38
+    ]
+   ],
+   "note": "Domingo, 29/11, 18h30, na Neo Química Arena."
+  },
+  {
+   "type": "cta",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-26-revanche-gremio/fotos/5.jpg",
+   "photo_cx": 0.75,
+   "lines": [
+    "Domingo tem revanche?",
+    "Crava o placar."
+   ]
+  }
+ ]
+}
