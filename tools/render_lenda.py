@@ -242,8 +242,13 @@ def grain_frames(n=6, seed=11):
 def scene_hook(frame, t, s, ctx):
     acc = ctx['accent']
     small = s['small']; big = s['big']; slam = s['slam']
-    f1 = I('Light', 54); f2 = F(CARDO_I, 118); f3 = I('Black', 172)
+    f1 = I('Light', 54); f2 = F(CARDO_I, 118); f3 = I('Black', s.get('slam_size', 172))
     y = 470
+    if s.get('names'):  # nomes em destaque no topo (ex.: "NEYMAR x CRAQUE NETO")
+        fn = I('Black', s.get('names_size', 104)); yn = 250
+        for i, ln in enumerate(wrap(s['names'], fn, XR - X0)):
+            reveal(frame, text_img(ln, fn, acc), X0 - 4, yn, t, .0 + i * .08, .4); yn += int(s.get('names_size', 104) * 1.05)
+        y = max(y, yn + 40)
     for i, ln in enumerate(wrap(small, f1, XR - X0)):
         reveal(frame, text_img(ln, f1, IVORY), X0, y, t, .05 + i * .08, .45); y += 66
     y += 10
