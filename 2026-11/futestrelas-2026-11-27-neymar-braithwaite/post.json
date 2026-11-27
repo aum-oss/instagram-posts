@@ -29,29 +29,29 @@
   {
    "type": "match",
    "dur": 3.0,
-   "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/2.jpg",
+   "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/3.jpg",
    "photo_cx": 0.5,
-   "label": "PRIMEIRO",
+   "label": "O LANCE",
    "chapter": "1º",
-   "date": "DURANTE O JOGO",
-   "title": "Neymar fez gol de falta",
+   "date": "2º TEMPO",
+   "title": "Pênalti em Braithwaite",
    "chips": [
-    "O juiz anulou",
-    "Disse que não tinha autorizado a cobrança"
+    "Disputa com Escobar, do Santos",
+    "O juiz marcou para o Grêmio"
    ]
   },
   {
    "type": "match",
    "dur": 3.0,
-   "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/3.jpg",
+   "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/2.jpg",
    "photo_cx": 0.5,
-   "label": "DEPOIS",
+   "label": "O VAR",
    "chapter": "2º",
-   "date": "DURANTE O JOGO",
-   "title": "Pênalti para o Grêmio",
+   "date": "REVISÃO",
+   "title": "O VAR viu falta do Braithwaite",
    "chips": [
-    "Falta em Braithwaite",
-    "Ele mesmo bateu: 2 a 0"
+    "O juiz revisou e manteve o pênalti",
+    "Braithwaite bateu: 2 a 0"
    ]
   },
   {
@@ -65,7 +65,7 @@
    "title": "Braithwaite estendeu a mão",
    "chips": [
     "Neymar passou direto",
-    "Voltou e discutiu com ele"
+    "Voltou apontando o dedo pra ele"
    ]
   },
   {
@@ -73,13 +73,13 @@
    "dur": 3.0,
    "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/1.jpg",
    "photo_cx": 0.2,
-   "label": "NA ENTREVISTA",
+   "label": "DEPOIS",
    "chapter": "4º",
    "date": "PÓS-JOGO",
-   "title": "Neymar reclamou da arbitragem",
+   "title": "Neymar detonou a arbitragem",
    "chips": [
-    "Disse que sofreu +10 faltas no 1º tempo",
-    "Cobrou a CBF"
+    "Cobrou a diretoria e a CBF",
+    "A CBF depois: o pênalti foi correto"
    ]
   },
   {
@@ -88,8 +88,8 @@
    "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/5.jpg",
    "photo_cx": 0.5,
    "lines": [
-    "Errou ou teve razão?",
-    "E você, apertava a mão?"
+    "Foi pênalti ou não foi?",
+    "Neymar teve razão?"
    ]
   }
  ]
