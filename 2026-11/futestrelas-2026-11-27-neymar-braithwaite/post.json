@@ -21,10 +21,9 @@
    "photo_cx": 0.5,
    "photo_dark": 0.9,
    "names": "NEYMAR x BRAITHWAITE",
-   "small": "Fim de jogo. Mão estendida.",
-   "big": "E o Neymar passou direto.",
-   "slam": "SEM APERTO.",
-   "slam_size": 140,
+   "small": "Santos 0 x 2 Grêmio.",
+   "big": "Neymar não apertou a mão dele.",
+   "slam": "POR QUÊ?",
    "slam_at": 0
   },
   {
@@ -32,13 +31,13 @@
    "dur": 3.0,
    "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/2.jpg",
    "photo_cx": 0.5,
-   "label": "O GOL ANULADO",
-   "chapter": "Nº 01",
-   "date": "SANTOS 0 x 2 GRÊMIO",
-   "title": "Fez de falta. Não valeu.",
+   "label": "PRIMEIRO",
+   "chapter": "1º",
+   "date": "DURANTE O JOGO",
+   "title": "Neymar fez gol de falta",
    "chips": [
-    "Pegou o goleiro Weverton desprevenido",
-    "Árbitro: ainda não tinha autorizado"
+    "O juiz anulou",
+    "Disse que não tinha autorizado a cobrança"
    ]
   },
   {
@@ -46,13 +45,13 @@
    "dur": 3.0,
    "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/3.jpg",
    "photo_cx": 0.5,
-   "label": "O PÊNALTI",
-   "chapter": "Nº 02",
-   "date": "VAR MANTEVE",
-   "title": "Pênalti em Braithwaite. Gol dele.",
+   "label": "DEPOIS",
+   "chapter": "2º",
+   "date": "DURANTE O JOGO",
+   "title": "Pênalti para o Grêmio",
    "chips": [
-    "O Santos reclamou do lance",
-    "Foi o 2º gol do Grêmio"
+    "Falta em Braithwaite",
+    "Ele mesmo bateu: 2 a 0"
    ]
   },
   {
@@ -60,13 +59,27 @@
    "dur": 3.0,
    "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/4.jpg",
    "photo_cx": 0.5,
-   "label": "O DESABAFO",
-   "chapter": "Nº 03",
+   "label": "NO FIM",
+   "chapter": "3º",
+   "date": "APITO FINAL",
+   "title": "Braithwaite estendeu a mão",
+   "chips": [
+    "Neymar passou direto",
+    "Voltou e discutiu com ele"
+   ]
+  },
+  {
+   "type": "match",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/1.jpg",
+   "photo_cx": 0.2,
+   "label": "NA ENTREVISTA",
+   "chapter": "4º",
    "date": "PÓS-JOGO",
-   "title": "Neymar cobrou a CBF",
+   "title": "Neymar reclamou da arbitragem",
    "chips": [
     "Disse que sofreu +10 faltas no 1º tempo",
-    "Cobrou a diretoria e a CBF"
+    "Cobrou a CBF"
    ]
   },
   {
@@ -75,8 +88,8 @@
    "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/5.jpg",
    "photo_cx": 0.5,
    "lines": [
-    "Desabafo justo ou falta de fair play?",
-    "Neymar teve razão?"
+    "Errou ou teve razão?",
+    "E você, apertava a mão?"
    ]
   }
  ]
