@@ -1,0 +1,18 @@
+{
+ "id": "futestrelas-2026-11-27-brasil-argentina",
+ "account": "futestrelas2026", "handle": "@futestrelas2026", "layout": "lenda", "type": "reel",
+ "accent": [40, 170, 90], "cover_t": 1.0, "static_hook": true,
+ "logo": "tools/logo_futestrelas.png",
+ "credit": "Fotos: Wikimedia Commons (créditos na legenda)",
+ "scenes": [
+  {"type": "hook", "dur": 3.0, "photo": "2026-11/futestrelas-2026-11-27-brasil-argentina/fotos/1.jpg", "photo_cx": 0.7, "names": "BRASIL x ARGENTINA",
+   "small": "Amanhã, na final da Libertadores,", "big": "o Brasil pode ficar sozinho no topo.", "slam": "25 x 25.", "slam_at": 0},
+  {"type": "stats", "dur": 3.0, "photo": "2026-11/futestrelas-2026-11-27-brasil-argentina/fotos/2.jpg", "photo_cx": 0.5, "label": "O PLACAR", "chapter": "Nº 01", "date": "TÍTULOS",
+   "stats": [["25", "títulos do Brasil"], ["25", "títulos da Argentina"]], "note": "Empate desde 2025, com o Flamengo."},
+  {"type": "match", "dur": 3.0, "photo": "2026-11/futestrelas-2026-11-27-brasil-argentina/fotos/3.jpg", "photo_cx": 0.5, "label": "SE DER PALMEIRAS", "chapter": "Nº 02", "date": "SÁBADO · 17H",
+   "title": "Brasil 26 x 25. Sozinho no topo.", "chips": ["Palmeiras tetracampeão", "Iguala o Flamengo"]},
+  {"type": "match", "dur": 3.0, "photo": "2026-11/futestrelas-2026-11-27-brasil-argentina/fotos/4.jpg", "photo_cx": 0.55, "label": "SE DER ESTUDIANTES", "chapter": "Nº 03", "date": "CENTENÁRIO",
+   "title": "Argentina 26 x 25. De volta ao topo.", "chips": ["Estudiantes pentacampeão", "Já eliminou Corinthians e Flamengo"]},
+  {"type": "cta", "dur": 3.0, "photo": "2026-11/futestrelas-2026-11-27-brasil-argentina/fotos/1.jpg", "photo_cx": 0.3, "lines": ["Amanhã é Brasil x Argentina.", "Vai torcer pro Palmeiras?"]}
+ ]
+}
