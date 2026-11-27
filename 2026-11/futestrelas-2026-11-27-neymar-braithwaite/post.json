@@ -1,0 +1,83 @@
+{
+ "id": "futestrelas-2026-11-27-neymar-braithwaite",
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "layout": "lenda",
+ "type": "reel",
+ "accent": [
+  214,
+  170,
+  60
+ ],
+ "cover_t": 1.0,
+ "static_hook": true,
+ "logo": "tools/logo_futestrelas.png",
+ "credit": "Fotos: Wikimedia Commons (créditos na legenda)",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/1.jpg",
+   "photo_cx": 0.5,
+   "photo_dark": 0.9,
+   "names": "NEYMAR x BRAITHWAITE",
+   "small": "Fim de jogo. Mão estendida.",
+   "big": "E o Neymar passou direto.",
+   "slam": "SEM APERTO.",
+   "slam_size": 140,
+   "slam_at": 0
+  },
+  {
+   "type": "match",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/2.jpg",
+   "photo_cx": 0.5,
+   "label": "O GOL ANULADO",
+   "chapter": "Nº 01",
+   "date": "SANTOS 0 x 2 GRÊMIO",
+   "title": "Fez de falta. Não valeu.",
+   "chips": [
+    "Pegou o goleiro Weverton desprevenido",
+    "Árbitro: ainda não tinha autorizado"
+   ]
+  },
+  {
+   "type": "match",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/3.jpg",
+   "photo_cx": 0.5,
+   "label": "O PÊNALTI",
+   "chapter": "Nº 02",
+   "date": "VAR MANTEVE",
+   "title": "Pênalti em Braithwaite. Gol dele.",
+   "chips": [
+    "O Santos reclamou do lance",
+    "Foi o 2º gol do Grêmio"
+   ]
+  },
+  {
+   "type": "match",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/4.jpg",
+   "photo_cx": 0.5,
+   "label": "O DESABAFO",
+   "chapter": "Nº 03",
+   "date": "PÓS-JOGO",
+   "title": "Neymar cobrou a CBF",
+   "chips": [
+    "Disse que sofreu +10 faltas no 1º tempo",
+    "Cobrou a diretoria e a CBF"
+   ]
+  },
+  {
+   "type": "cta",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-neymar-braithwaite/fotos/5.jpg",
+   "photo_cx": 0.5,
+   "lines": [
+    "Desabafo justo ou falta de fair play?",
+    "Neymar teve razão?"
+   ]
+  }
+ ]
+}
