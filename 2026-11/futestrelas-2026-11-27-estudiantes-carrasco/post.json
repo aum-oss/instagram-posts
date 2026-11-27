@@ -1,0 +1,88 @@
+{
+ "id": "futestrelas-2026-11-27-estudiantes-carrasco",
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "layout": "lenda",
+ "type": "reel",
+ "accent": [
+  205,
+  26,
+  38
+ ],
+ "cover_t": 1.0,
+ "static_hook": true,
+ "logo": "tools/logo_futestrelas.png",
+ "credit": "Fotos: Wikimedia Commons (créditos na legenda)",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-estudiantes-carrasco/fotos/1.jpg",
+   "photo_cx": 0.5,
+   "names": "ESTUDIANTES",
+   "small": "O time argentino que",
+   "big": "eliminou o Corinthians e o Flamengo.",
+   "slam": "E O PALMEIRAS?",
+   "slam_at": 0,
+   "slam_size": 118
+  },
+  {
+   "type": "match",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-estudiantes-carrasco/fotos/2.jpg",
+   "photo_cx": 0.12,
+   "label": "QUARTAS DE FINAL",
+   "chapter": "Nº 01",
+   "date": "NEO QUÍMICA ARENA",
+   "title": "Calou Itaquera",
+   "chips": [
+    "Gol de Alexis Castro na reta final",
+    "Vaga na casa do Corinthians"
+   ]
+  },
+  {
+   "type": "match",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-estudiantes-carrasco/fotos/3.jpg",
+   "photo_cx": 0.5,
+   "label": "SEMIFINAL",
+   "chapter": "Nº 02",
+   "date": "MARACANÃ",
+   "title": "Calou o Maracanã",
+   "chips": [
+    "Dois empates sem gols",
+    "Venceu o Flamengo nos pênaltis"
+   ]
+  },
+  {
+   "type": "stats",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-estudiantes-carrasco/fotos/4.jpg",
+   "photo_cx": 0.5,
+   "label": "O CARRASCO",
+   "chapter": "Nº 03",
+   "date": "HISTÓRIA",
+   "stats": [
+    [
+     "4",
+     "Libertadores do Estudiantes"
+    ],
+    [
+     "1968",
+     "venceu o Palmeiras na final"
+    ]
+   ],
+   "note": "Amanhã, 17h, no Centenário."
+  },
+  {
+   "type": "cta",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-estudiantes-carrasco/fotos/5.jpg",
+   "photo_cx": 0.5,
+   "lines": [
+    "Corinthians caiu. Flamengo caiu.",
+    "O Palmeiras segura?"
+   ]
+  }
+ ]
+}

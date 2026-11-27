@@ -1,0 +1,84 @@
+{
+ "id": "futestrelas-2026-11-27-black-friday",
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "layout": "lenda",
+ "type": "reel",
+ "accent": [
+  240,
+  190,
+  40
+ ],
+ "cover_t": 1.0,
+ "static_hook": true,
+ "logo": "tools/logo_futestrelas.png",
+ "credit": "Fotos: Wikimedia Commons (créditos na legenda)",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-black-friday/fotos/2.jpg",
+   "photo_cx": 0.5,
+   "names": "BLACK FRIDAY DO FUTEBOL",
+   "small": "Ofertas verdadeiras",
+   "big": "pra mandar pro rival.",
+   "slam": "SÓ HOJE.",
+   "slam_at": 0,
+   "photo_dark": 0.88
+  },
+  {
+   "type": "match",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-black-friday/fotos/1.jpg",
+   "photo_cx": 0.12,
+   "label": "OFERTA 1",
+   "chapter": "OFERTA 1",
+   "date": "ÚLTIMAS UNIDADES",
+   "title": "Vaga na Série A",
+   "chips": [
+    "Corinthians, Grêmio e Mirassol: 41 pontos",
+    "Quem fica decide no saldo",
+    "Domingo: Corinthians x Grêmio"
+   ]
+  },
+  {
+   "type": "match",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-black-friday/fotos/2.jpg",
+   "photo_cx": 0.5,
+   "label": "OFERTA 2",
+   "chapter": "OFERTA 2",
+   "date": "LIBERTADORES",
+   "title": "Frete grátis pra Argentina",
+   "chips": [
+    "Corinthians: eliminado pelo Estudiantes",
+    "Flamengo: eliminado pelo Estudiantes",
+    "Não aceitamos devolução"
+   ]
+  },
+  {
+   "type": "match",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-black-friday/fotos/3.jpg",
+   "photo_cx": 0.5,
+   "label": "OFERTA 3",
+   "chapter": "OFERTA 3",
+   "date": "SÁBADO · 17H",
+   "title": "Combo Palmeiras",
+   "chips": [
+    "Opção 1: o tetra da Libertadores",
+    "Opção 2: vice pelo 2º ano seguido"
+   ]
+  },
+  {
+   "type": "cta",
+   "dur": 3.0,
+   "photo": "2026-11/futestrelas-2026-11-27-black-friday/fotos/1.jpg",
+   "photo_cx": 0.12,
+   "lines": [
+    "Promoção válida até domingo.",
+    "Marca o rival que tá no carrinho."
+   ]
+  }
+ ]
+}
