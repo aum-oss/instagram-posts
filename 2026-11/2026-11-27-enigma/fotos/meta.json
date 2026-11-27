@@ -1,0 +1,65 @@
+{
+ "hook": {
+  "title": "File:Enigma-IMG 0487-black.jpg",
+  "author": "Rama",
+  "license": "CC BY-SA 2.0 fr",
+  "size": [
+   2000,
+   1333
+  ]
+ },
+ "rotores": {
+  "title": "File:Enigma rotors with alphabet rings.jpg",
+  "author": "TedColes",
+  "license": "CC0",
+  "size": [
+   2000,
+   1624
+  ]
+ },
+ "lampada": {
+  "title": "File:Enigma Machine A16672 open, letter L pressed.agr.jpg",
+  "author": "ArnoldReinhold",
+  "license": "CC BY-SA 4.0",
+  "size": [
+   1500,
+   2000
+  ]
+ },
+ "plugboard": {
+  "title": "File:Enigma Machine A16672 open plugboard.agr.jpg",
+  "author": "ArnoldReinhold",
+  "license": "CC BY-SA 4.0",
+  "size": [
+   2000,
+   1685
+  ]
+ },
+ "bombe": {
+  "title": "File:RebuiltBombeFrontView.jpg",
+  "author": "TedColes",
+  "license": "CC0",
+  "size": [
+   2000,
+   1500
+  ]
+ },
+ "bombe_drum": {
+  "title": "File:Rotating upper bombe drum.jpg",
+  "author": "TedColes",
+  "license": "CC0",
+  "size": [
+   1333,
+   2000
+  ]
+ },
+ "mansao": {
+  "title": "File:Bletchley Park Mansion.jpg",
+  "author": "DeFacto",
+  "license": "CC BY-SA 4.0",
+  "size": [
+   2000,
+   1178
+  ]
+ }
+}
