@@ -1,0 +1,122 @@
+{
+ "id": "futestrelas-2026-11-27-decide-domingo",
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "layout": "lenda",
+ "type": "reel",
+ "accent": [
+  205,
+  26,
+  38
+ ],
+ "cover_t": 1.0,
+ "static_hook": true,
+ "logo": "tools/logo_futestrelas.png",
+ "credit": "Fotos: Wikimedia Commons (créditos na legenda)",
+ "scenes": [
+  {
+   "type": "hook",
+   "photo": "2026-11/futestrelas-2026-11-27-decide-domingo/fotos/1.jpg",
+   "photo_cx": 0.5,
+   "small": "Corinthians x Grêmio",
+   "big": "domingo, 18h30.",
+   "slam": "QUEM CAI?",
+   "slam_at": 0
+  },
+  {
+   "type": "table",
+   "photo": "2026-11/futestrelas-2026-11-27-decide-domingo/fotos/2.jpg",
+   "photo_cx": 0.5,
+   "label": "BRASILEIRÃO 2026",
+   "chapter": "Nº 01",
+   "date": "FALTAM 2 RODADAS",
+   "title": "Três times com 41 pontos",
+   "highlight": "Corinthians",
+   "cut_after": 3,
+   "cut_label": "ZONA DE REBAIXAMENTO",
+   "rows": [
+    [
+     14,
+     "Botafogo",
+     43
+    ],
+    [
+     15,
+     "Corinthians",
+     41
+    ],
+    [
+     16,
+     "Grêmio",
+     41
+    ],
+    [
+     17,
+     "Mirassol",
+     41
+    ],
+    [
+     18,
+     "Internacional",
+     38
+    ]
+   ],
+   "note": "Restam 2 vagas pra Série B."
+  },
+  {
+   "type": "match",
+   "photo": "2026-11/futestrelas-2026-11-27-decide-domingo/fotos/3.jpg",
+   "photo_cx": 0.5,
+   "label": "37ª RODADA · NEO QUÍMICA ARENA",
+   "chapter": "Nº 02",
+   "date": "DOMINGO, 29/11 · 18H30",
+   "score": [
+    "Corinthians",
+    "?",
+    "?",
+    "Grêmio"
+   ],
+   "title": "Ninguém cai domingo. Mas…",
+   "chips": [
+    "Vitória = alívio",
+    "Empate pode derrubar o Inter",
+    "Derrota = sufoco até 02/12"
+   ]
+  },
+  {
+   "type": "number",
+   "photo": "2026-11/futestrelas-2026-11-27-decide-domingo/fotos/4.jpg",
+   "photo_cx": 0.4,
+   "label": "ÚLTIMA RODADA",
+   "chapter": "Nº 03",
+   "date": "QUARTA, 02/12",
+   "number": "38ª",
+   "number_size": 420,
+   "lines": [
+    "Grêmio x Mirassol.",
+    "Outro duelo direto."
+   ],
+   "note": "Pelo menos um gigante cai."
+  },
+  {
+   "type": "cta",
+   "photo": "2026-11/futestrelas-2026-11-27-decide-domingo/fotos/5.jpg",
+   "photo_cx": 0.75,
+   "lines": [
+    "Quem fica na Série A?",
+    "Crava o placar."
+   ]
+  },
+  {
+   "type": "cta",
+   "photo": "2026-11/futestrelas-2026-11-27-decide-domingo/fotos/5.jpg",
+   "photo_cx": 0.75,
+   "photo_dark": 0.4,
+   "follow": true,
+   "lines": [
+    "Curtiu? Tem craques, lendas e bastidores todo dia.",
+    "Segue aí!"
+   ]
+  }
+ ]
+}
