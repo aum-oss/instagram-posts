@@ -1,0 +1,83 @@
+{
+ "id": "futestrelas-2026-11-28-hoje-final",
+ "account": "futestrelas2026",
+ "handle": "@futestrelas2026",
+ "layout": "lenda",
+ "type": "reel",
+ "accent": [
+  40,
+  170,
+  90
+ ],
+ "cover_t": 1.0,
+ "static_hook": true,
+ "logo": "tools/logo_futestrelas.png",
+ "credit": "Fotos: Wikimedia Commons (créditos na legenda)",
+ "scenes": [
+  {
+   "type": "hook",
+   "photo": "2026-11/futestrelas-2026-11-28-hoje-final/fotos/1.jpg",
+   "photo_cx": 0.4,
+   "names": "PALMEIRAS x ESTUDIANTES",
+   "small": "Final da Libertadores,",
+   "big": "hoje, 17h.",
+   "slam": "É HOJE!",
+   "slam_at": 0
+  },
+  {
+   "type": "match",
+   "photo": "2026-11/futestrelas-2026-11-28-hoje-final/fotos/2.jpg",
+   "photo_cx": 0.5,
+   "label": "JOGO ÚNICO",
+   "chapter": "Nº 01",
+   "date": "HOJE · 17H",
+   "score": [
+    "Palmeiras",
+    "?",
+    "?",
+    "Estudiantes"
+   ],
+   "title": "Centenário, Montevidéu",
+   "chips": [
+    "17h no Brasil, Argentina e Uruguai",
+    "Globo, ESPN e Disney+",
+    "Campeão leva US$ 25 milhões"
+   ]
+  },
+  {
+   "type": "number",
+   "photo": "2026-11/futestrelas-2026-11-28-hoje-final/fotos/3.jpg",
+   "photo_cx": 0.5,
+   "label": "O QUE VALE",
+   "chapter": "Nº 02",
+   "date": "8ª FINAL DO VERDÃO",
+   "number": "4º",
+   "number_size": 600,
+   "lines": [
+    "Vale o tetra.",
+    "Pro Estudiantes, o penta."
+   ],
+   "note": "O tri veio neste mesmo estádio, em 2021."
+  },
+  {
+   "type": "cta",
+   "photo": "2026-11/futestrelas-2026-11-28-hoje-final/fotos/4.jpg",
+   "photo_cx": 0.5,
+   "lines": [
+    "Quanto vai ser?",
+    "Crava o placar."
+   ]
+  },
+  {
+   "type": "cta",
+   "photo": "2026-11/futestrelas-2026-11-28-hoje-final/fotos/4.jpg",
+   "photo_cx": 0.5,
+   "photo_dark": 0.4,
+   "follow": true,
+   "lines": [
+    "Curtiu? Tem craques, lendas e bastidores todo dia.",
+    "Segue aí!"
+   ]
+  }
+ ]
+}
