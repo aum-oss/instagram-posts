@@ -31,4 +31,4 @@ Notícias do dia (manhã, 10h40 Paris) entram aqui conforme forem aprovadas.
 | 2026-11-26 | extra 12h30 Brasília | FIFA confirma ataque hacker com acesso a dados pessoais e comerciais (Reuters, SBT News) | reel | publicado (media id 18117398360036677) |
 | 2026-11-27 | extra 11h07 Paris | Raio-X kit 72h (3D narrado) | reel (3D + voz) | publicado (media id 17930001813206101) |
 - 2026-11-28 · nomad · RAIO-X Chernobyl (3D) · publicado manualmente às 10h40 Paris (media id 17875163928644489)
-- 2026-12-02 · nomad · RAIO-X Bhopal (3D) · pronto (postar 2/12, 42 anos)
+- 2026-11-29 · nomad · RAIO-X Bhopal (3D) · agendado 29/11 10h30 Paris
