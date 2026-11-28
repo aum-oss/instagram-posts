@@ -30,4 +30,4 @@ Notícias do dia (manhã, 10h40 Paris) entram aqui conforme forem aprovadas.
 | 2026-11-25 | extra | McDonald's Japão: app invadido (formato novo, foto real) | reel (foto + voz) | publicado (18055450553821563) |
 | 2026-11-26 | extra 12h30 Brasília | FIFA confirma ataque hacker com acesso a dados pessoais e comerciais (Reuters, SBT News) | reel | publicado (media id 18117398360036677) |
 | 2026-11-27 | extra 11h07 Paris | Raio-X kit 72h (3D narrado) | reel (3D + voz) | publicado (media id 17930001813206101) |
-- 2026-11-28 · nomad · RAIO-X Chernobyl (3D) · pronto
+- 2026-11-28 · nomad · RAIO-X Chernobyl (3D) · publicado manualmente às 10h40 Paris (media id 17875163928644489)
